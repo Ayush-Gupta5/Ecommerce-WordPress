@@ -1,0 +1,169 @@
+/*
+Theme Name: Ecommerce Bookshop
+Template: author-writer
+Text Domain: ecommerce-bookshop
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/themes/free-ecommerce-wordpress-theme/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Ecommerce Bookshop is a theme for Public Library & Book Store. Anyone can use it as it is multipurpose for the app store, book, book author, book publisher, bookseller, book shop, book shopping, book store, digital books, e-learning, e-books, newspaper, online book store, selling e-books, PDFs online, course providers, online courses music and game selling sites. Ecommerce Bookshop has many responsive features such as Clean, user-friendly, responsive, beautiful, accessible, personalization options, testimonial section, and Banner. This theme is compatible with the most popular event calendar. It displays what's coming up and notifies users about the cost of workshops, classes, or other events. Page Builder is used to creating the theme. There are many unique features that this theme supports, including retina-ready, professional and personalization options. You can also customize the options with customization options and multipurpose. It is translation ready. This theme is specifically designed for e-commerce websites. It also allows you to display your business information and the possibility of selling products online. This theme is perfect for e-commerce websites and shops. It can be used to create e-commerce websites for any online store, including fashion, shoes, jewellery, sport, technology, and mobile.
+Tags: wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, blog, e-commerce, education
+Version: 1.1
+Tested up to: 6.1
+Requires PHP: 7.4
+Requires at least: 5.0
+*/
+
+.top-header,.readmore-btn a,#theme-sidebar button[type="submit"], #footer button[type="submit"],.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar .tagcloud a:hover,.site-info,.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],span.meta-nav,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.book-tkt-btn a.register-btn,.book-tkt-btn a.bar-btn i:hover,.cat-inner-box:hover,.toggle-nav i{
+    background: #27ae61;
+}
+
+.main-navigation ul ul,#theme-sidebar button[type="submit"]:hover, #footer button[type="submit"]:hover, .readmore-btn a:hover, #comments input[type="submit"]:hover, span.meta-nav:hover,#footer,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover,.book-tkt-btn a.register-btn:hover{
+    background: #000000;
+}
+
+h1, h2, h3, h4, h5, h6,.event-inner-content h3 a,.box-info i,.main-navigation a,h2.woocommerce-loop-product__title, .woocommerce div.product .product_title,.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price{
+    color: #000000;
+}
+
+a, a:hover,#theme-sidebar h3,#theme-sidebar a:hover,#theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a, #main-content p a,.event-inner-content i,h6.title-p{
+    color: #27ae61;
+}
+
+nav.woocommerce-MyAccount-navigation ul li{
+    border-color: #000000;
+}
+
+.readmore-btn a:hover,.media-links span,#slider .inner_carousel h2,.slider-box-content h3 a,.more-btn a:hover{
+    color: #fff;
+}
+
+#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover,.more-btn a{
+    background: #fff;
+    color: #27ae61;
+}
+
+.box-content li a,.box-content ol a,.box-content a{
+    text-decoration: underline;
+}
+
+.book-tkt-btn a.bar-btn i:hover{
+    border-color: #27ae61;
+}
+
+h1,h2,h3,h4,h5,h6,.main-navigation a,body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Header */
+
+.top-header span, .top-header p{
+    font-weight: normal;
+}
+.headerbox{
+    background: transparent;
+}
+.main-navigation li{
+    text-transform: none;
+}
+.main-navigation a{
+    font-size: 14px;
+    font-weight: normal;
+}
+.logo h1 {
+    font-size: 25px;
+    font-style: italic;
+}
+.media-links i {
+    color: #27ae61;
+    font-size: 13px;
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 9px 0;
+    border-radius: 30px;
+}
+.book-tkt-btn a.register-btn,.more-btn a{
+    border-radius: 0;
+}
+
+/* Slider */
+
+#slider .inner_carousel{
+    color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    left: 20%;
+    right: 5%;
+}
+#slider .carousel-caption {
+    background: rgb(39 174 97 / 60%);
+    transform: none;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+#slider .inner_carousel h2 {
+    font-size: 50px;
+}
+
+h2.woocommerce-loop-product__title, .woocommerce div.product .product_title {
+    font-size: 20px !important;
+    margin-bottom: 0 !important;
+}
+.woocommerce li.product {
+    background: #fff;
+    box-shadow: 0 0 12px 2px #d1d1d1;
+    padding: 15px !important;
+}
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price {
+    font-size: 18px;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+    text-transform: none;
+}
+del span.woocommerce-Price-amount.amount bdi {
+    color: #27ae61;
+    opacity: 1 !important;
+}
+
+.site-info a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px){
+    .sidenav{
+        background: #000;
+    }
+    #slider .carousel-caption{
+        width: 60%;
+    }
+    #slider .inner_carousel {
+        left: 25%;
+    }
+    #slider .inner_carousel h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .more-btn {
+        margin: 5px 0;
+    }
+    #slider .inner_carousel {
+        left: 10%;
+        right: 10%;
+    }
+    #slider .inner_carousel h2 {
+        font-size: 20px;
+    }
+    #slider .carousel-caption{
+        width: 100%;
+    }
+}

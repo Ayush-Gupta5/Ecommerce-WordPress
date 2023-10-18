@@ -1,0 +1,14 @@
+.wp-block-pullquote blockquote, .wp-block-quote:not(.is-large):not(.is-style-large),.wp-block-pullquote {
+    border-color: #27ae61;
+}
+.wp-block-file .wp-block-file__button, .wp-block-button .wp-block-button__link{
+	background: #27ae61;
+	color: #fff !important;
+	border-radius: 0;
+    font-weight: 500;
+}
+.wp-block-file .wp-block-file__button:hover, .wp-block-file .wp-block-file__button:focus, .wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus {
+    background-color: #151515;
+    color: #fff !important;
+    box-shadow: 0px 15px 30px -17px rgb(0 0 0 / 75%);
+}

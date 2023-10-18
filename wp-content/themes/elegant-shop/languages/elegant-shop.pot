@@ -1,0 +1,1620 @@
+# <!=Copyright (C) 2022 Good Looking Themes
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant shop 1.0.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/elegant-shop\n"
+"POT-Creation-Date: 2022-10-12 02:59:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:18
+msgid "Sorry We Can`t Find That Page!"
+msgstr ""
+
+#: 404.php:21
+msgid "The page you are looking for was moved, removed, renamed or never existed."
+msgstr ""
+
+#: comments.php:35
+#. translators: 1: title.
+msgid "Comments"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:75
+msgid "row"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:83
+msgid "Add new %s"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:239
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:394
+#: inc/custom-controls/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:404
+#: inc/custom-controls/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:405
+#: inc/custom-controls/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:405
+#: inc/custom-controls/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:430
+#: inc/custom-controls/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:441
+#: inc/custom-controls/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:441
+#: inc/custom-controls/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: inc/custom-functions.php:50
+msgid "Primary"
+msgstr ""
+
+#: inc/custom-functions.php:51
+msgid "Secondary"
+msgstr ""
+
+#: inc/custom-header.php:39
+msgid "Default Header Image"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:14
+msgid "Contact Details Section"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:24
+#: inc/customizer/partial-refresh.php:338 page-template/contact.php:8
+msgid "Keep in touch with us"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:34
+#: inc/customizer/panels/home/blog.php:50
+#: inc/customizer/panels/home/featured-products.php:54
+#: inc/customizer/panels/home/new-arrivals.php:53
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:57
+msgid "Section Content"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:65
+#: inc/template-functions.php:456
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:74
+msgid "Location Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:82
+#: inc/template-functions.php:457
+msgid "4140 Parker Rd. Allentown, New Mexico 31134"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:91
+msgid "Location Description"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:99
+#: inc/template-functions.php:481
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:108
+msgid "Contact Information Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:116
+#: inc/template-functions.php:482
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:125
+msgid "Mail Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:133
+#: inc/template-functions.php:483
+msgid "debra.holt@example.com"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:142
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:143
+msgid ""
+"You can add multiple emails by seperating it with comma. For example: "
+"xyz@gmail.com, abc@yahoo.com"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:151
+#: inc/template-functions.php:485
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:160
+msgid "Phone Us Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:168
+#: inc/template-functions.php:486
+msgid "+1 (800) 123 456 789"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:177
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:178
+msgid "You can add multiple phone number seperating with comma"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:186
+#: inc/template-functions.php:535
+msgid "Hours of Operation"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:195
+msgid "Contact Timing Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:203
+#: inc/template-functions.php:536
+msgid "Monday - Friday: 09.00 - 20.00"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:212
+msgid "Contact Timing Content"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:213
+msgid ""
+"You can add multiple contact hours seperating with comma. For example: "
+"Monday - Friday: 09.00 - 20.00, Sunday & Saturday: 10.30 - 22.30"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:233
+msgid "Enable Social Section"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:241
+#: inc/customizer/partial-refresh.php:344 inc/template-functions.php:603
+msgid "Follow Us:"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-detail.php:251
+msgid "Social Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-form.php:14
+msgid "Contact Form Section"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-form.php:23
+#: inc/customizer/partial-refresh.php:350 inc/template-functions.php:582
+msgid "Get In Touch"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-form.php:33
+msgid "Contact Form Title"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-form.php:55
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-form.php:56
+msgid "Please generate the shortcode from contact form 7 widget"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-map.php:16
+msgid "Google Map Section"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-map.php:37
+msgid "Google Map Settings"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-map.php:38
+msgid "Disable to hide the Google Map Settings"
+msgstr ""
+
+#: inc/customizer/panels/contact/contact-map.php:55
+msgid "Embeded Google Map"
+msgstr ""
+
+#: inc/customizer/panels/contact.php:17
+msgid "Contact Page Settings"
+msgstr ""
+
+#: inc/customizer/panels/contact.php:18
+msgid "Customize contact Page Sections"
+msgstr ""
+
+#: inc/customizer/panels/general/appearance.php:18
+msgid "Appearance Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/appearance.php:21
+msgid "Change color and body background."
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:14
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:35
+msgid "Header Search"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:36
+msgid "Enable to show search in header"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:56
+msgid "Wishlist Cart"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:57
+msgid "Enable to show Wishlist cart in the header."
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:77
+msgid "User Login"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:78
+msgid "Enable to show user login in the header."
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:98
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/customizer/panels/general/header.php:99
+msgid "Enable to show Shopping cart in the header."
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:16
+msgid "Misc Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:37
+msgid "Scroll To Top"
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:38
+msgid "You can enable/disable Scroll to Top."
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:58
+#: inc/customizer/panels/general/post-page.php:77
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:59
+#: inc/customizer/panels/general/post-page.php:78
+msgid "Automatically generated excerpt length (in words)."
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:73
+msgid "View Details"
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:82
+#: inc/customizer/panels/general/top-header.php:79
+msgid "Button Label"
+msgstr ""
+
+#: inc/customizer/panels/general/misc.php:83
+msgid "Read more button label for Archive Pages and 404."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:14
+msgid "Posts(Blog) & Pages Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:35
+msgid "Hide Prefix in Archive Page"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:36
+msgid "Enable to hide prefix in archive page."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:56
+msgid "Enable Blog Excerpt"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:57
+msgid "Enable to show excerpt or disable to show full post content."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:92
+#: inc/customizer/panels/home/blog.php:63
+#: inc/customizer/partial-refresh.php:143 inc/extra-functions.php:928
+#: inc/template-functions.php:316 sections/home/blog.php:8
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:103
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:127
+msgid "%s These options affect your individual posts."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:147
+msgid "Hide Author Section"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:148
+msgid "Enable to hide author section."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:168
+msgid "Show Related Posts"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:169
+msgid "Enable to show related posts in single page."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:178
+msgid "You may also like..."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:189
+msgid "Related Posts Section Title"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:213
+msgid "Hide Category"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:214
+msgid "Enable to hide category."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:234
+msgid "Hide Post Author"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:235
+msgid "Enable to hide post author."
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:255
+msgid "Hide Posted Date"
+msgstr ""
+
+#: inc/customizer/panels/general/post-page.php:256
+msgid "Enable to hide posted date."
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:13
+msgid "Top Bar Settings"
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:34
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:35
+msgid "Enable to show top bar on top of header."
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:44
+#: inc/customizer/partial-refresh.php:74
+msgid "Due to the COVID 19 pandamic, our shipping may be delayed ! "
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:55
+#: inc/customizer/panels/general.php:96
+#: inc/customizer/panels/home/product-cat.php:58
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:68
+#: inc/customizer/partial-refresh.php:80
+msgid "Click here to know more"
+msgstr ""
+
+#: inc/customizer/panels/general/top-header.php:102
+msgid "Button URL"
+msgstr ""
+
+#: inc/customizer/panels/general.php:18
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/panels/general.php:19
+msgid ""
+"Customize Header, Social, Sharing, SEO, Post/Page, Newsletter, Performance "
+"and Miscellaneous settings."
+msgstr ""
+
+#: inc/customizer/panels/general.php:25
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer/panels/general.php:47
+msgid "Banner Options"
+msgstr ""
+
+#: inc/customizer/panels/general.php:48
+msgid "Choose banner as static image/video or as a slider."
+msgstr ""
+
+#: inc/customizer/panels/general.php:52
+msgid "Disable Banner Section"
+msgstr ""
+
+#: inc/customizer/panels/general.php:53
+msgid "Static/Video CTA Banner"
+msgstr ""
+
+#: inc/customizer/panels/general.php:63 inc/customizer/partial-refresh.php:56
+msgid "NEW ARRIVALS 2022"
+msgstr ""
+
+#: inc/customizer/panels/general.php:72
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer/panels/general.php:87 inc/customizer/partial-refresh.php:62
+msgid "Best Higher End Level Smartphone"
+msgstr ""
+
+#: inc/customizer/panels/general.php:120
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/panels/general.php:145
+msgid "Banner Overlay"
+msgstr ""
+
+#: inc/customizer/panels/general.php:146
+msgid "Enable to add overlay in banner"
+msgstr ""
+
+#: inc/customizer/panels/general.php:155 inc/customizer/partial-refresh.php:125
+#: inc/customizer/partial-refresh.php:134
+#: inc/customizer/partial-refresh.php:182
+#: inc/customizer/partial-refresh.php:236
+#: inc/customizer/partial-refresh.php:296
+#: inc/customizer/partial-refresh.php:386 inc/extra-functions.php:546
+#: sections/home/product-cat.php:10
+msgid "Shop Now"
+msgstr ""
+
+#: inc/customizer/panels/general.php:166
+msgid "Banner Button label"
+msgstr ""
+
+#: inc/customizer/panels/general.php:186
+msgid "Banner Button Link"
+msgstr ""
+
+#: inc/customizer/panels/general.php:206
+msgid "Open in a new tab"
+msgstr ""
+
+#: inc/customizer/panels/general.php:207
+msgid "Enable to open the link in a new tab."
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:12
+msgid "Blogs Section"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:32
+msgid "Enable Blog Section"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:40
+#: inc/customizer/partial-refresh.php:152 sections/home/blog.php:7
+msgid "News And Blogs"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:72
+msgid "Button label"
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:73
+msgid "Add button label for blog and news section."
+msgstr ""
+
+#: inc/customizer/panels/home/blog.php:97
+#: inc/customizer/panels/home/category.php:90
+#: inc/customizer/panels/home/featured-products.php:140
+#: inc/customizer/panels/home/featured.php:107
+#: inc/customizer/panels/home/new-arrivals.php:119
+#: inc/customizer/panels/home/product-cat.php:113
+msgid "Enable to open link in a new tab"
+msgstr ""
+
+#: inc/customizer/panels/home/category.php:15
+msgid "Category Section"
+msgstr ""
+
+#: inc/customizer/panels/home/category.php:35
+msgid "Enable Category Section"
+msgstr ""
+
+#: inc/customizer/panels/home/category.php:57
+#: inc/customizer/panels/home/category.php:67
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/panels/home/category.php:61 inc/extra-functions.php:23
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:15
+msgid "Featured product Section"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:35
+msgid "Enable Featured Product Section"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:44
+#: inc/customizer/partial-refresh.php:98 sections/home/featured-products.php:9
+msgid "Our Featured Products"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:81
+msgid "Category Tabs"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:85
+msgid "Choose Category for Tabs"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:91
+#: inc/customizer/panels/home/product-cat.php:68
+msgid "category"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:115
+msgid "Number of Products"
+msgstr ""
+
+#: inc/customizer/panels/home/featured-products.php:116
+msgid "Choose the number of products you want to display"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:15
+msgid "Featured Section"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:35
+msgid "Enable Featured Section"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:57
+#: inc/customizer/panels/home/featured.php:83
+msgid "Featured"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:61
+msgid "Enter Tag"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:65
+msgid "Enter Title"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:69
+msgid "Enter label"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:73
+msgid "Link"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:74
+msgid "Example: https://facebook.com"
+msgstr ""
+
+#: inc/customizer/panels/home/featured.php:78
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/panels/home/new-arrivals.php:15
+msgid "New Arrivals Section"
+msgstr ""
+
+#: inc/customizer/panels/home/new-arrivals.php:35
+msgid "Enable New Arrivals Section"
+msgstr ""
+
+#: inc/customizer/panels/home/new-arrivals.php:43
+#: inc/customizer/partial-refresh.php:89 sections/home/new-arrivals.php:9
+msgid "New Arrivals"
+msgstr ""
+
+#: inc/customizer/panels/home/new-arrivals.php:74
+msgid "Select Product Category"
+msgstr ""
+
+#: inc/customizer/panels/home/new-arrivals.php:95
+msgid "Number of products to show"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:12
+msgid "Category List Section"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:32
+msgid "Enable Category Listing Section"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:54
+msgid "Category Lists"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:62
+msgid "Choose Category for Lists"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:80
+msgid "Shop now"
+msgstr ""
+
+#: inc/customizer/panels/home/product-cat.php:89
+msgid "Product Section Button"
+msgstr ""
+
+#: inc/customizer/panels/home.php:18
+msgid "Front Page Settings"
+msgstr ""
+
+#: inc/customizer/panels/home.php:19
+msgid "Static Home Page settings."
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:19
+msgid "&copy; Copyright "
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:20 inc/extra-functions.php:531
+#: inc/extra-functions.php:795 inc/extra-functions.php:797
+#: inc/extra-functions.php:799 inc/extra-functions.php:802
+#: inc/extra-functions.php:804 inc/extra-functions.php:807
+msgid "Y"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:22
+msgid "All Rights Reserved."
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:35
+msgid "Developed By "
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:36
+msgid "Good Looking Themes."
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:46
+msgid "%1$s Powered by %2$s%3$s"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:46
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:107
+msgid "Golder Plated TAG Heuer Carrera Watch"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:116
+msgid "Deal Ends At"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:158
+msgid "Our Services"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:170
+#: inc/customizer/partial-refresh.php:224
+#: inc/customizer/partial-refresh.php:284
+#: inc/customizer/partial-refresh.php:374
+msgid "Browse Through Our Products Library"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:188
+#: inc/customizer/partial-refresh.php:242
+#: inc/customizer/partial-refresh.php:302
+msgid "Our Trusted Branding Partners"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:200
+#: inc/customizer/partial-refresh.php:314
+msgid "Team Members"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:212
+msgid "Our Testimonials"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:254
+#: inc/customizer/partial-refresh.php:272
+msgid "Our Story"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:260
+#: inc/customizer/partial-refresh.php:278
+msgid "Producing"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:266
+msgid "Go To Shop"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:326
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:356
+msgid "Topics"
+msgstr ""
+
+#: inc/customizer/partial-refresh.php:362
+msgid "Our Clients"
+msgstr ""
+
+#: inc/customizer/section/footer.php:14
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/section/footer.php:33
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/section/footer.php:34
+msgid ""
+"You can change footer copyright and use your own custom text from here. Use "
+"[the-year] shortcode to display current year & [the-site-link] shortcode to "
+"display site link."
+msgstr ""
+
+#: inc/customizer/section/footer.php:59
+msgid "Footer Image"
+msgstr ""
+
+#: inc/customizer/section/footer.php:78
+msgid "Footer image link"
+msgstr ""
+
+#: inc/customizer/section/info.php:13
+msgid "Information Links"
+msgstr ""
+
+#: inc/customizer/section/info.php:27
+msgid "<li>View demo: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: inc/customizer/section/info.php:28
+msgid "<li>View documentation: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: inc/customizer/section/info.php:29
+msgid "<li>Theme info: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: inc/customizer/section/info.php:30
+msgid "<li>Support ticket: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: inc/customizer/section/info.php:31
+msgid "<li>More WordPress Themes: %1$sClick here.%2$s</li>"
+msgstr ""
+
+#: inc/customizer/section/info.php:37
+msgid "Important Links"
+msgstr ""
+
+#: inc/customizer/section/info.php:130
+msgid "Pro Available"
+msgstr ""
+
+#: inc/customizer/section/info.php:132
+msgid "VIEW PRO THEME"
+msgstr ""
+
+#: inc/customizer/section/layout.php:15
+msgid "General Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/section/layout.php:35
+msgid "Page Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/section/layout.php:36
+msgid ""
+"This is the general sidebar layout for pages. You can override the sidebar "
+"layout for individual page in respective page."
+msgstr ""
+
+#: inc/customizer/section/layout.php:61
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/section/layout.php:62
+msgid ""
+"This is the general sidebar layout for posts & custom post. You can "
+"override the sidebar layout for individual post in respective post."
+msgstr ""
+
+#: inc/customizer/section/layout.php:87
+msgid "Default Sidebar Layout"
+msgstr ""
+
+#: inc/customizer/section/layout.php:88
+msgid "This is the general sidebar layout for whole site."
+msgstr ""
+
+#: inc/extra-functions.php:158
+msgid "View your favourite cart"
+msgstr ""
+
+#: inc/extra-functions.php:191
+msgid "Sign in"
+msgstr ""
+
+#: inc/extra-functions.php:192
+msgid "Account"
+msgstr ""
+
+#: inc/extra-functions.php:236 inc/extra-functions.php:278
+msgid "Click here to add a menu"
+msgstr ""
+
+#: inc/extra-functions.php:319
+msgid "Mobile"
+msgstr ""
+
+#: inc/extra-functions.php:350
+msgid "Sold Out"
+msgstr ""
+
+#: inc/extra-functions.php:502 inc/extra-functions.php:998
+msgid "out of 5"
+msgstr ""
+
+#: inc/extra-functions.php:549
+msgid "Find Your Best Holiday"
+msgstr ""
+
+#: inc/extra-functions.php:550
+msgid "Find great adventure holidays and activities around the planet."
+msgstr ""
+
+#: inc/extra-functions.php:706
+msgid "Home"
+msgstr ""
+
+#: inc/extra-functions.php:792
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/extra-functions.php:797 inc/extra-functions.php:799
+#: inc/extra-functions.php:804
+msgid "m"
+msgstr ""
+
+#: inc/extra-functions.php:797 inc/extra-functions.php:804
+msgid "F"
+msgstr ""
+
+#: inc/extra-functions.php:799
+msgid "d"
+msgstr ""
+
+#: inc/extra-functions.php:884
+msgid "Page %s"
+msgstr ""
+
+#: inc/extra-functions.php:911
+msgid "404 Error - Page Not Found"
+msgstr ""
+
+#: inc/extra-functions.php:914
+msgid " (Page %s)"
+msgstr ""
+
+#: inc/extra-functions.php:941
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/extra-functions.php:949
+msgid "Related Posts"
+msgstr ""
+
+#: inc/extra-functions.php:1057
+msgid "%s Post"
+msgstr ""
+
+#: inc/extra-functions.php:1097
+msgid ""
+"<b class=\"fn\" itemprop=\"creator\" itemscope "
+"itemtype=\"http://schema.org/Person\">%s <span "
+"class=\"says\">says:</span></b>"
+msgstr ""
+
+#: inc/extra-functions.php:1100
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/extra-functions.php:1104
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extra-functions.php:1111
+msgid " Comments"
+msgstr ""
+
+#: inc/extra-functions.php:1112
+msgid "Reply"
+msgstr ""
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:24 inc/widgets.php:14
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/metabox.php:29
+msgid "Full Width"
+msgstr ""
+
+#: inc/metabox.php:34
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/metabox.php:39
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/metabox.php:50
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/template-functions.php:39
+msgid "Skip to content (Press Enter)"
+msgstr ""
+
+#: inc/template-functions.php:51
+msgid "End of Season SALE now on thru 1/21."
+msgstr ""
+
+#: inc/template-functions.php:53
+msgid "SHOP NOW"
+msgstr ""
+
+#: inc/template-functions.php:293 template-parts/content-page.php:31
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-functions.php:379
+msgid "Prev"
+msgstr ""
+
+#: inc/template-functions.php:401
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:55
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:58
+#. translators: 1: list of categories.
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#. translators: 1: list of tags.
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:75
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:92 template-parts/content-page.php:45
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:133
+msgid " -- Choose -- "
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:330
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:370
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:386
+#: inc/tgmpa/class-tgm-plugin-activation.php:827
+#: inc/tgmpa/class-tgm-plugin-activation.php:2533
+#: inc/tgmpa/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:387
+#: inc/tgmpa/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#: inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:390
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:934
+#: inc/tgmpa/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3509
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:51
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:56
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:61
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:66
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:71
+msgid "YITH WooCommerce Quick View"
+msgstr ""
+
+#: inc/tgmpa/recommended-plugins.php:76
+msgid "WPForms Lite"
+msgstr ""
+
+#: inc/widgets.php:12
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Footer One"
+msgstr ""
+
+#: inc/widgets.php:19
+msgid "Add footer one widgets here."
+msgstr ""
+
+#: inc/widgets.php:22
+msgid "Footer Two"
+msgstr ""
+
+#: inc/widgets.php:24
+msgid "Add footer two widgets here."
+msgstr ""
+
+#: inc/widgets.php:27
+msgid "Footer Three"
+msgstr ""
+
+#: inc/widgets.php:29
+msgid "Add footer three widgets here."
+msgstr ""
+
+#: inc/widgets.php:32
+msgid "Footer Four"
+msgstr ""
+
+#: inc/widgets.php:34
+msgid "Add footer four widgets here."
+msgstr ""
+
+#: inc/widgets.php:37
+msgid "Footer Five"
+msgstr ""
+
+#: inc/widgets.php:39
+msgid "Add footer five widgets here."
+msgstr ""
+
+#: inc/woo-functions.php:82 inc/woo-functions.php:103
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/woo-functions.php:120
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woo-functions.php:122
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Elegant shop"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://glthemes.com/wordpress-theme/elegant-shop/?utm_source=wp-org&utm_"
+"campaign=elegant-shop&utm_medium=theme-uri"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Elegant Shop is a free ecommerce solution for small business, online "
+"retailers and store operators. It comes with everything you'll need to "
+"create a professional-looking online store where you can promote and sell "
+"your products. Elegant Shop with WooCommerce integrates all of the "
+"important features in a sleek and modern design. This WordPress theme is "
+"the best choice for selling physical goods, digital goods, or services from "
+"your website. Elegant Shop theme is bloat-free, SEO-ready, completely "
+"responsive, exceptionally fast, and comes with a variety of customizations "
+"features. The theme boasts an attractive homepage and pre-made templates to "
+"take your startup ecommerce business to a whole new level. It provides "
+"multiple options to engage your visitors and convert them into paying "
+"customers. This theme has a sleek design, a lovely color palette, appealing "
+"typography, and loads amazingly fast for ranking your website high in "
+"Search Engine Results Page. Be it a desktop, tablet, or a mobile device, "
+"this responsive theme fits seamlessly across the board. No need to worry "
+"about the technicalities when you have an excellent support team, timely "
+"updates, and well-crafted documentation in place. Instead, you can focus on "
+"building your brand, business and recognition. Don't take our words for it; "
+"try out the theme here: https://glthemes.com/live-demo/?theme=elegant-shop. "
+"If you stumble upon any issues or have queries about the theme, refer to "
+"the official theme documentation: "
+"https://glthemes.com/documentation/elegant-shop/ or leave an inquiry at "
+"https://glthemes.com/support/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Good Looking Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://glthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact page"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/extra-functions.php:1133
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Jost: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-tags.php:38
+#. translators: %s: post author.
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#: inc/template-tags.php:62
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1121
+#: inc/tgmpa/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

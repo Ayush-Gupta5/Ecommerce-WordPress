@@ -1,0 +1,1423 @@
+# <!=Copyright (C) 2018 Buy WP Templete
+# This file is distributed under the GNU General Public License.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Ecommerce Solution 1.8.1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-28 15:32:59+00:00\n"
+"MIME-Version: 1.2\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Buy WP Templete <support@buywptemplates.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../ecommerce-solution\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: 404.php:11
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:12
+msgid "Looks like you have taken a wrong turn"
+msgstr ""
+
+#: 404.php:13
+#: no-results.php:18
+msgid "Dont worry it happens to the best of us."
+msgstr ""
+
+#: 404.php:15
+#: no-results.php:20
+msgid "Back to Home Page"
+msgstr ""
+
+#: page.php:26
+#: template-parts/single-post:47
+msgid "Page"
+msgstr ""
+
+#: comments.php:18
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:29
+msgid "comments title"
+msgstr ""
+
+#: comments.php:60
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:11
+#: footer.php:13
+#: footer.php:15
+msgid "Scroll Up"
+msgstr ""
+
+#: footer.php:59
+msgid "Copyright 2019"
+msgstr ""
+
+#: functions.php:28
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:29
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:57
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:58
+#: functions.php:68
+#: functions.php:78
+msgid "Appears on posts and pages"
+msgstr ""
+
+#: functions.php:67
+msgid "Posts and Pages Sidebar"
+msgstr ""
+
+#: functions.php:77
+msgid "Third Column Sidebar"
+msgstr ""
+
+#: functions.php:90
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:332
+msgid "Ecommerce WordPress Theme"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:43
+msgid "Top Menu"
+msgstr ""
+
+#: header.php:44
+msgid "Close Menu"
+msgstr ""
+
+#: header.php:96
+#: header.php:159
+msgid "Open Menu"
+msgstr ""
+
+#: header.php:106
+msgid "ALL CATEGORIES"
+msgstr ""
+
+#: header.php:143
+msgid "My Account"
+msgstr ""
+
+#: header.php:146
+msgid "Login / Register"
+msgstr ""
+
+#: header.php:166
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:167
+msgid "Close Menu"
+msgstr ""
+
+#: header.php:181
+#: header.php:193
+msgid "shopping cart"
+msgstr ""
+
+#: header.php:181
+#: header.php:193
+msgid "Cart item"
+msgstr ""
+
+#: image.php:35
+#: image.php:71
+#: image.php:106
+#: image.php:141
+#: image.php:179
+#: image.php:217
+#: image.php:254
+#: page.php:23
+#: template-parts/single-post:45
+msgid "Pages:"
+msgstr ""
+
+#: image.php:40
+#: image.php:76
+#: image.php:111
+#: image.php:146
+#: image.php:184
+#: image.php:222
+#: image.php:259
+msgid "Edit"
+msgstr ""
+
+#: no-results.php:9
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:13
+msgid "Ready to publish your first post? Get started here."
+msgstr ""
+
+#: no-results.php:15
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:18
+msgid "Dont worry it happens to the best of us."
+msgstr ""
+
+#: no-results.php:20
+msgid "Back to Home Page"
+msgstr ""
+
+#: search.php:22
+#: search.php:43
+#: search.php:66
+#: search.php:89
+#: search.php:123
+#: search.php:144
+#: search.php:166
+msgid "Results For: %s"
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:13
+#: inc/customizer.php:1567
+msgid "Search"
+msgstr ""
+
+#: searchform.php:11
+msgid "placeholder"
+msgstr ""
+
+#: searchform.php:13
+msgid "submit button"
+msgstr ""
+
+#: sidebar.php:10
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:16
+msgid "Meta"
+msgstr ""
+
+#: customizer.php:23
+msgid "Logo Sizer"
+msgstr ""
+
+#: customizer.php:39
+msgid "Enable / Disable Site Title"
+msgstr ""
+
+#: customizer.php:49
+msgid "Site Title Font Size (px)"
+msgstr ""
+
+#: customizer.php:64
+msgid "Site Title Color"
+msgstr ""
+
+#: customizer.php:75
+msgid "Enable / Disable Site Tagline"
+msgstr ""
+
+#: customizer.php:85
+msgid "Site Tagline Font Size (px)"
+msgstr ""
+
+#: customizer.php:100
+msgid "Site Tagline Color"
+msgstr ""
+
+#: customizer.php:111
+msgid "Site logo inline with site title"
+msgstr ""
+
+#: customizer.php:121
+msgid "Logo Padding  (px)"
+msgstr ""
+
+#: customizer.php:136
+msgid "Logo Margin  (px)"
+msgstr ""
+
+#: customizer.php:151
+msgid "Background Skin"
+msgstr ""
+
+#: customizer.php:152
+msgid "Here you can add the background skin along with the background image."
+msgstr ""
+
+#: customizer.php:155
+msgid "With Background Skin"
+msgstr ""
+
+#: customizer.php:156
+msgid "Without Background Skin"
+msgstr ""
+
+#: customizer.php:165
+msgid "Home Page Settings"
+msgstr ""
+
+#: customizer.php:166
+msgid "Description of what this panel does."
+msgstr ""
+
+#: customizer.php:265
+msgid "Typography"
+msgstr ""
+
+#: customizer.php:275
+msgid "Body Color"
+msgstr ""
+
+#: customizer.php:287
+msgid "Body Fonts"
+msgstr ""
+
+#: customizer.php:297
+msgid "Body Font Size"
+msgstr ""
+
+#: customizer.php:309
+msgid "Paragraph Color"
+msgstr ""
+
+#: customizer.php:322
+msgid "Paragraph Fonts"
+msgstr ""
+
+#: customizer.php:332
+msgid "Paragraph Font Size"
+msgstr ""
+
+#: customizer.php:344
+msgid "\"a\" Tag Color"
+msgstr ""
+
+#: customizer.php:357
+msgid "\"a\" Tag Fonts"
+msgstr ""
+
+#: customizer.php:368
+msgid "\"li\" Tag Color"
+msgstr ""
+
+#: customizer.php:381
+msgid "\"li\" Tag Fonts"
+msgstr ""
+
+#: customizer.php:392
+msgid "H1 Color"
+msgstr ""
+
+#: customizer.php:405
+msgid "H1 Fonts"
+msgstr ""
+
+#: customizer.php:416
+msgid "H1 Font Size"
+msgstr ""
+
+#: customizer.php:428
+msgid "h2 Color"
+msgstr ""
+
+#: customizer.php:442
+msgid "h2 Fonts"
+msgstr ""
+
+#: customizer.php:453
+msgid "H2 Font Size"
+msgstr ""
+
+#: customizer.php:465
+msgid "H3 Color"
+msgstr ""
+
+#: customizer.php:479
+msgid "H3 Fonts"
+msgstr ""
+
+#: customizer.php:490
+msgid "H3 Font Size"
+msgstr ""
+
+#: customizer.php:502
+msgid "H4 Color"
+msgstr ""
+
+#: customizer.php:515
+msgid "H4 Fonts"
+msgstr ""
+
+#: customizer.php:526
+msgid "H4 Font Size"
+msgstr ""
+
+#: customizer.php:538
+msgid "H5 Color"
+msgstr ""
+
+#: customizer.php:551
+msgid "H5 Fonts"
+msgstr ""
+
+#: customizer.php:562
+msgid "H5 Font Size"
+msgstr ""
+
+#: customizer.php:574
+msgid "H6 Color"
+msgstr ""
+
+#: customizer.php:587
+msgid "H6 Fonts"
+msgstr ""
+
+#: customizer.php:598
+msgid "H6 Font Size"
+msgstr ""
+
+#: customizer.php:606
+msgid "Layout Settings"
+msgstr ""
+
+#: customizer.php:616
+msgid "Show / Hide Single Page Breadcrumb"
+msgstr ""
+
+#: customizer.php:616
+msgid "Enable / Disable Preloader"
+msgstr ""
+
+#: customizer.php:626
+msgid "Preloader Types"
+msgstr ""
+
+#: customizer.php:629
+msgid "First Preloader Type"
+msgstr ""
+
+#: customizer.php:630
+msgid "Second Preloader Type"
+msgstr ""
+
+#: customizer.php:639
+msgid "Preloader Background Color"
+msgstr ""
+
+#: customizer.php:648
+msgid "Preloader Icon Color"
+msgstr ""
+
+#: customizer.php:658
+msgid "Container Box"
+msgstr ""
+
+#: customizer.php:659
+msgid "Here you can change the Width layout. "
+msgstr ""
+
+#: customizer.php:662 customizer.php:923
+msgid "Default"
+msgstr ""
+
+#: customizer.php:663
+msgid "Container Layout"
+msgstr ""
+
+#: customizer.php:664
+msgid "Box Layout"
+msgstr ""
+
+#: customizer.php:675
+msgid "Select different post sidebar layout"
+msgstr ""
+
+#: customizer.php:678 customizer.php:1268
+msgid "One Column"
+msgstr ""
+
+#: customizer.php:679
+msgid "Three Columns"
+msgstr ""
+
+#: customizer.php:680
+msgid "Four Columns"
+msgstr ""
+
+#: customizer.php:681
+msgid "Grid Layout"
+msgstr ""
+
+#: customizer.php:682 customizer.php:1269
+msgid "Left Sidebar"
+msgstr ""
+
+#: customizer.php:683 customizer.php:1270
+msgid "Right Sidebar"
+msgstr ""
+
+#: customizer.php:693
+msgid "Sidebar Size Option"
+msgstr ""
+
+#: customizer.php:696
+msgid "Sidebar 1/3"
+msgstr ""
+
+#: customizer.php:697
+msgid "Sidebar 1/4"
+msgstr ""
+
+#: customizer.php:706
+msgid "Featured Image Border Radius"
+msgstr ""
+
+#: customizer.php:724
+msgid "Featured Image Shadow"
+msgstr ""
+
+#: customizer.php:736
+msgid "Theme Color Option"
+msgstr ""
+
+#: customizer.php:745
+msgid "Highlight Color"
+msgstr ""
+
+#: customizer.php:752
+msgid "Post General Settings"
+msgstr ""
+
+#: customizer.php:762
+msgid "Post Layouts"
+msgstr ""
+
+#: customizer.php:763
+msgid "Here you can change the 3 different layouts of post"
+msgstr ""
+
+#: customizer.php:777 customizer.php:1147
+msgid "Enable / Disable Date "
+msgstr ""
+
+#: customizer.php:787
+msgid "Post Date Icon"
+msgstr ""
+
+#: customizer.php:799 customizer.php:1169
+msgid "Enable / Disable Author"
+msgstr ""
+
+#: customizer.php:809
+msgid "Post Author Icon"
+msgstr ""
+
+#: customizer.php:821 customizer.php:1191
+msgid "Enable / Disable Comments"
+msgstr ""
+
+#: customizer.php:831
+msgid "Post Comment Icon"
+msgstr ""
+
+#: customizer.php:843 customizer.php:1223
+msgid "Enable / Disable Time"
+msgstr ""
+
+#: customizer.php:853
+msgid "Post Time Icon"
+msgstr ""
+
+#: customizer.php:865
+msgid "Post Image Options"
+msgstr ""
+
+#: customizer.php:867
+msgid "Image"
+msgstr ""
+
+#: customizer.php:868
+msgid "Color"
+msgstr ""
+
+#: customizer.php:869
+msgid "None"
+msgstr ""
+
+#: customizer.php:879
+msgid "Post Color"
+msgstr ""
+
+#: customizer.php:890
+msgid "Color Post Custom Width"
+msgstr ""
+
+#: customizer.php:905
+msgid "Color Post Custom Height"
+msgstr ""
+
+#: customizer.php:921
+msgid "Post Featured Image Dimention"
+msgstr ""
+
+#: customizer.php:924
+msgid "Custom"
+msgstr ""
+
+#: customizer.php:935
+msgid "Post Featured Image Custom Width"
+msgstr ""
+
+#: customizer.php:950
+msgid "Post Featured Image Custom Height"
+msgstr ""
+
+#: customizer.php:969
+msgid "Blog Post Content Limit"
+msgstr ""
+
+#: customizer.php:986
+msgid "Content Settings"
+msgstr ""
+
+#: customizer.php:989
+msgid "Excerpt"
+msgstr ""
+
+#: customizer.php:990
+msgid "Content"
+msgstr ""
+
+#: customizer.php:995
+msgid "[...]"
+msgstr ""
+
+#: customizer.php:999
+msgid "Post Excerpt Suffix"
+msgstr ""
+
+#: customizer.php:1010
+msgid "Meta Box"
+msgstr ""
+
+#: customizer.php:1012 customizer.php:1281
+msgid ""
+"Here you can add the seperator for meta box. e.g. \"|\",  \",\", \"/\", etc. "
+msgstr ""
+
+#: customizer.php:1018
+msgid "View More"
+msgstr ""
+
+#: customizer.php:1022
+msgid "Add Button Text"
+msgstr ""
+
+#: customizer.php:1033
+msgid "Button Icon"
+msgstr ""
+
+#: customizer.php:1045 customizer.php:2487
+msgid "Button Top Bottom Padding (px)"
+msgstr ""
+
+#: customizer.php:1060 customizer.php:2502
+msgid "Button Right Left Padding (px)"
+msgstr ""
+
+#: customizer.php:1075 customizer.php:2517
+msgid "Button Border Radius (px)"
+msgstr ""
+
+#: customizer.php:1090
+msgid "Enable / Disable Blog Page Pagination"
+msgstr ""
+
+#: customizer.php:1101
+msgid "Post Pagination Position"
+msgstr ""
+
+#: customizer.php:1103
+msgid "Top"
+msgstr ""
+
+#: customizer.php:1104
+msgid "Bottom"
+msgstr ""
+
+#: customizer.php:1105
+msgid "Both Top & Bottom"
+msgstr ""
+
+#: customizer.php:1115
+msgid "Post Pagination"
+msgstr ""
+
+#: customizer.php:1117
+msgid "Numeric Pagination"
+msgstr ""
+
+#: customizer.php:1118
+msgid "Next / Previous"
+msgstr ""
+
+#: customizer.php:1127
+msgid "Blog Post Shown"
+msgstr ""
+
+#: customizer.php:1130
+msgid "By Block"
+msgstr ""
+
+#: customizer.php:1131
+msgid "By Without Block"
+msgstr ""
+
+#: customizer.php:1137
+msgid "Single Post Settings"
+msgstr ""
+
+#: customizer.php:1157
+msgid "Enable / Disable Breadcrumb"
+msgstr ""
+
+#: customizer.php:1157
+msgid "Single Post Date Icon"
+msgstr ""
+
+#: customizer.php:1179
+msgid "Single Post Author Icon"
+msgstr ""
+
+#: customizer.php:1201
+msgid "Single Post Comment Icon"
+msgstr ""
+
+#: customizer.php:1213
+msgid "Enable / Disable Tags"
+msgstr ""
+
+#: customizer.php:1233
+msgid "Single Post Time Icon"
+msgstr ""
+
+#: customizer.php:1245
+msgid "Enable / Disable post comment"
+msgstr ""
+
+#: customizer.php:1255
+msgid "Enable / Disable Featured image"
+msgstr ""
+
+#: customizer.php:1290
+msgid "Single Post Categories"
+msgstr ""
+
+#: customizer.php:1265
+msgid "Select different Single post sidebar layout"
+msgstr ""
+
+#: customizer.php:1279
+msgid "Single Post Meta Box Seperator"
+msgstr ""
+
+#: customizer.php:1292
+msgid "Comment Form Width"
+msgstr ""
+
+#: customizer.php:1302
+msgid "Leave a Reply"
+msgstr ""
+
+#: customizer.php:1307
+msgid "Comment Form Heading Text"
+msgstr ""
+
+#: customizer.php:1312
+msgid "Post Comment"
+msgstr ""
+
+#: customizer.php:1317
+msgid "Comment Form Button Text"
+msgstr ""
+
+#: customizer.php:1327
+msgid "Enable / Disable Single Post Pagination"
+msgstr ""
+
+#: customizer.php:1372
+msgid "Previous Navigation Text"
+msgstr ""
+
+#: customizer.php:1382
+msgid "Next Navigation Text"
+msgstr ""
+
+#: customizer.php:1333
+msgid "Related Post Settings"
+msgstr ""
+
+#: customizer.php:1343
+msgid "Enable / Disable Related Post"
+msgstr ""
+
+#: customizer.php:1352
+msgid "Add Section Title"
+msgstr ""
+
+#: customizer.php:1364
+msgid "Related Post Count"
+msgstr ""
+
+#: customizer.php:1380
+msgid "Post Taxonomies"
+msgstr ""
+
+#: customizer.php:1383
+msgid "Categories"
+msgstr ""
+
+#: customizer.php:1384
+msgid "Tags"
+msgstr ""
+
+#: customizer.php:1394
+msgid "Content Limit"
+msgstr ""
+
+#: customizer.php:1405
+msgid "Topbar"
+msgstr ""
+
+#: customizer.php:1406
+msgid "Add contact us here"
+msgstr ""
+
+#: customizer.php:1416
+msgid "Menu Font Size "
+msgstr ""
+
+#: customizer.php:1430
+msgid "Main Menu Padding"
+msgstr ""
+
+#: customizer.php:1445
+msgid "Menu Text Transform"
+msgstr ""
+
+#: customizer.php:1448
+msgid "Uppercase"
+msgstr ""
+
+#: customizer.php:1449
+msgid "Lowercase"
+msgstr ""
+
+#: customizer.php:1450
+msgid "Capitalize"
+msgstr ""
+
+#: customizer.php:1460
+msgid "Menu Font Weight"
+msgstr ""
+
+#: customizer.php:1463
+msgid "100"
+msgstr ""
+
+#: customizer.php:1464
+msgid "200"
+msgstr ""
+
+#: customizer.php:1465
+msgid "300"
+msgstr ""
+
+#: customizer.php:1466
+msgid "400"
+msgstr ""
+
+#: customizer.php:1467
+msgid "500"
+msgstr ""
+
+#: customizer.php:1468
+msgid "600"
+msgstr ""
+
+#: customizer.php:1469
+msgid "700"
+msgstr ""
+
+#: customizer.php:1470
+msgid "800"
+msgstr ""
+
+#: customizer.php:1471
+msgid "900"
+msgstr ""
+
+#: customizer.php:1480
+msgid "Menu Color"
+msgstr ""
+
+#: customizer.php:1490
+msgid "Submenu Color"
+msgstr ""
+
+#: customizer.php:1500
+msgid "Menu Hover Color"
+msgstr ""
+
+#: customizer.php:1545
+msgid "Submenu Hover Color"
+msgstr ""
+
+#: customizer.php:1512
+msgid "Enable / Disable Sticky Header"
+msgstr ""
+
+#: customizer.php:1521
+msgid "Sticky Header Padding"
+msgstr ""
+
+#: customizer.php:1537
+msgid "Phone Icon"
+msgstr ""
+
+#: customizer.php:1548
+msgid "Add phone number"
+msgstr ""
+
+#: customizer.php:1559
+msgid "Enable / Disable Search & Category"
+msgstr ""
+
+#: customizer.php:1569
+msgid "Enable / Disable My Account"
+msgstr ""
+
+#: customizer.php:1579
+msgid "Enable / Disable Cart"
+msgstr ""
+
+#: customizer.php:1589
+msgid "Enable / Disable Sticky Cart"
+msgstr ""
+
+#: customizer.php:1599
+msgid "Category Icon"
+msgstr ""
+
+#: customizer.php:1611
+msgid "Category Show Down Icon"
+msgstr ""
+
+#: customizer.php:1623
+msgid "Category List Icon"
+msgstr ""
+
+#: customizer.php:1635
+msgid "My Account Icon"
+msgstr ""
+
+#: customizer.php:1647
+msgid "Login / Register Icon"
+msgstr ""
+
+#: customizer.php:1659
+msgid "Cart Icon"
+msgstr ""
+
+#: customizer.php:1690
+msgid "Search"
+msgstr ""
+
+#: customizer.php:1695
+msgid "Search Placeholder Option"
+msgstr ""
+
+#: customizer.php:1701
+msgid "Slider Section"
+msgstr ""
+
+#: customizer.php:1712
+msgid "Enable / Disable slider"
+msgstr ""
+
+#: customizer.php:1723
+msgid "Select Slide Image Page"
+msgstr ""
+
+#: customizer.php:1724
+msgid "Slider image size (1500 x 600)"
+msgstr ""
+
+#: customizer.php:1738
+msgid "Enable / Disable Slider Heading"
+msgstr ""
+
+#: customizer.php:1748
+msgid "Enable / Disable Slider Text"
+msgstr ""
+
+#: customizer.php:1758
+msgid "Enable / Disable Slider Button"
+msgstr ""
+
+#: customizer.php:1768
+msgid "Enable / Disable Slider Image Overlay"
+msgstr ""
+
+#: customizer.php:1777
+msgid "Slider Image Overlay Color"
+msgstr ""
+
+#: customizer.php:1783
+msgid "SHOP NOW"
+msgstr ""
+
+#: customizer.php:1787
+msgid "Slider Button Text"
+msgstr ""
+
+#: customizer.php:1799
+msgid "Slider Content Layout"
+msgstr ""
+
+#: customizer.php:1802
+msgid "Center"
+msgstr ""
+
+#: customizer.php:1803 customizer.php:2477
+msgid "Left"
+msgstr ""
+
+#: customizer.php:1804 customizer.php:2476
+msgid "Right"
+msgstr ""
+
+#: customizer.php:1809
+msgid "550"
+msgstr ""
+
+#: customizer.php:1813
+msgid "Slider Height"
+msgstr ""
+
+#: customizer.php:1823
+msgid "Top Bottom Slider Content Spacing"
+msgstr ""
+
+#: customizer.php:1837
+msgid "Left Right Slider Content Spacing"
+msgstr ""
+
+#: customizer.php:1854
+msgid "Slider Content Limit"
+msgstr ""
+
+#: customizer.php:1871
+msgid "Slider Image Opacity"
+msgstr ""
+
+#: customizer.php:1896
+msgid "Slider Slide Speed"
+msgstr ""
+
+#: customizer.php:1907
+msgid "New Collection"
+msgstr ""
+
+#: customizer.php:1918
+msgid "Show / Hide New Collection Section"
+msgstr ""
+
+#: customizer.php:1927
+msgid "Select product Page"
+msgstr ""
+
+#: customizer.php:1935
+msgid "Footer Text"
+msgstr ""
+
+#: customizer.php:1944
+msgid "Footer Background Color"
+msgstr ""
+
+#: customizer.php:1953
+msgid "Footer Background Image"
+msgstr ""
+
+#: customizer.php:1963
+msgid "Footer widget area"
+msgstr ""
+
+#: customizer.php:1965
+msgid ""
+"Select the number of widget areas you want in the footer. After that, go to "
+"Appearance > Widgets and add your widgets."
+msgstr ""
+
+#: customizer.php:1967 customizer.php:2713
+msgid "One"
+msgstr ""
+
+#: customizer.php:1968 customizer.php:2714
+msgid "Two"
+msgstr ""
+
+#: customizer.php:1969 customizer.php:2715
+msgid "Three"
+msgstr ""
+
+#: customizer.php:1970 customizer.php:2716
+msgid "Four"
+msgstr ""
+
+#: customizer.php:1980
+msgid "Enable / Disable Back To Top"
+msgstr ""
+
+#: customizer.php:1990
+msgid "Back to Top Icon"
+msgstr ""
+
+#: customizer.php:2002
+msgid "Back To Top Icon Font Size"
+msgstr ""
+
+#: customizer.php:2017
+msgid "Back To Top Alignment"
+msgstr ""
+
+#: customizer.php:2020 customizer.php:2090
+msgid "Left Align"
+msgstr ""
+
+#: customizer.php:2021 customizer.php:2091
+msgid "Right Align"
+msgstr ""
+
+#: customizer.php:2022 customizer.php:2092
+msgid "Center Align"
+msgstr ""
+
+#: customizer.php:2032
+msgid "Top Bottom Scroll Padding (px)"
+msgstr ""
+
+#: customizer.php:2047
+msgid "Left Right Scroll Padding (px)"
+msgstr ""
+
+#: customizer.php:2061
+msgid "Back to Top Border Radius (px)"
+msgstr ""
+
+#: customizer.php:2075
+msgid "Copyright Text"
+msgstr ""
+
+#: customizer.php:2077
+msgid "Add some text for footer like copyright etc."
+msgstr ""
+
+#: customizer.php:2087
+msgid "Copyright Text Alignment "
+msgstr ""
+
+#: customizer.php:2102
+msgid "Copyright Font Size (px)"
+msgstr ""
+
+#: customizer.php:2117
+msgid "Copyright Text Padding (px)"
+msgstr ""
+
+#: customizer.php:2131
+msgid "Copyright Background Color"
+msgstr ""
+
+#: customizer.php:2137
+msgid "Responsive Media"
+msgstr ""
+
+#: customizer.php:2188
+msgid "Responsive Open Menu Icon"
+msgstr ""
+
+#: customizer.php:2200
+msgid "Open Menu Label"
+msgstr ""
+
+#: customizer.php:2210
+msgid "Responsive Close Menu Icon"
+msgstr ""
+
+#: customizer.php:2222
+msgid "Close Menu Label"
+msgstr ""
+
+#: customizer.php:2147
+msgid "Toggle Button Color"
+msgstr ""
+
+#: customizer.php:2158
+msgid "Display Post Date"
+msgstr ""
+
+#: customizer.php:2168
+msgid "Display Post Author"
+msgstr ""
+
+#: customizer.php:2178
+msgid "Display Post Comment"
+msgstr ""
+
+#: customizer.php:2188
+msgid "Display Post Time"
+msgstr ""
+
+#: customizer.php:2198
+msgid "Display Slider"
+msgstr ""
+
+#: customizer.php:2208
+msgid "Display Slider Button"
+msgstr ""
+
+#: customizer.php:2218
+msgid "Display Sidebar"
+msgstr ""
+
+#: customizer.php:2228
+msgid "Display Scroll To Top"
+msgstr ""
+
+#: customizer.php:2238
+msgid "Display Sticky Header"
+msgstr ""
+
+#: customizer.php:2248
+msgid "Display Preloader"
+msgstr ""
+
+#: customizer.php:2258
+msgid "Display Search & Category"
+msgstr ""
+
+#: customizer.php:2268
+msgid "Display My Account"
+msgstr ""
+
+#: customizer.php:2278
+msgid "Display Cart"
+msgstr ""
+
+#: customizer.php:2284
+msgid "404 Page Not Found / No Result"
+msgstr ""
+
+#: customizer.php:2289
+msgid "404 Not Found"
+msgstr ""
+
+#: customizer.php:2293
+msgid "404 Heading"
+msgstr ""
+
+#: customizer.php:2299
+msgid ""
+"Looks like you have taken a wrong turn. Dont worry it happens to the best of "
+"us."
+msgstr ""
+
+#: customizer.php:2303
+msgid "404 Content"
+msgstr ""
+
+#: customizer.php:2309
+msgid "Back to Home Page"
+msgstr ""
+
+#: customizer.php:2313
+msgid "404 Button"
+msgstr ""
+
+#: customizer.php:2319
+msgid "Nothing Found"
+msgstr ""
+
+#: customizer.php:2323
+msgid "No Search Results Heading"
+msgstr ""
+
+#: customizer.php:2324
+msgid "The search page heading display when no results are found."
+msgstr ""
+
+#: customizer.php:2330
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: customizer.php:2334
+msgid "No Search Results Text"
+msgstr ""
+
+#: customizer.php:2335
+msgid "The search page text display when no results are found."
+msgstr ""
+
+#: customizer.php:2342
+msgid "Woocommerce Settings"
+msgstr ""
+
+#: customizer.php:2343
+msgid "The below settings are apply on woocommerce pages."
+msgstr ""
+
+#: customizer.php:2357
+msgid "Product per columns"
+msgstr ""
+
+#: customizer.php:2373
+msgid "Product per page"
+msgstr ""
+
+#: customizer.php:2384
+msgid "Enable / Disable shop page sidebar"
+msgstr ""
+
+#: customizer.php:2394
+msgid "Enable / Disable product page sidebar"
+msgstr ""
+
+#: customizer.php:2404
+msgid "Enable / Disable Related product"
+msgstr ""
+
+#: customizer.php:2413
+msgid "Woocommerce Product Sale Border Radius"
+msgstr ""
+
+#: customizer.php:2428
+msgid "Woocommerce Product Sale Font Size"
+msgstr ""
+
+#: customizer.php:2442
+msgid "Woocommerce Product Sale Top Bottom Padding "
+msgstr ""
+
+#: customizer.php:2457
+msgid "Woocommerce Product Sale Left Right Padding"
+msgstr ""
+
+#: customizer.php:2473
+msgid "Woocommerce Product Sale Position"
+msgstr ""
+
+#: customizer.php:2532
+msgid "Enable / Disable product border"
+msgstr ""
+
+#: customizer.php:2542
+msgid "Product Top Bottom Padding (px)"
+msgstr ""
+
+#: customizer.php:2557
+msgid "Product Right Left Padding (px)"
+msgstr ""
+
+#: customizer.php:2572
+msgid "Product Border Radius (px)"
+msgstr ""
+
+#: customizer.php:2587
+msgid "Product Box Shadow (px)"
+msgstr ""
+
+#: customizer.php:2602
+msgid "Shop Page Products Navigation"
+msgstr ""
+
+#: customizer.php:2604
+msgid "Yes"
+msgstr ""
+
+#: customizer.php:2605
+msgid "No"
+msgstr ""
+
+#: customizer.php:2687
+msgid "Ecommerce Pro"
+msgstr ""
+
+#: customizer.php:2688
+msgid "Go Pro"
+msgstr ""
+
+#: page-template/home-page.php:41
+msgid "SHOP NOW"
+msgstr ""
+
+#: template-parts/custom-audio.php:61
+#: template-parts/custom-gallery.php:51
+#: template-parts/custom-image.php:45
+#: template-parts/custom-video.php:61
+#: template-parts/grid-layout.php:25
+msgid "View More"
+msgstr ""
+
+#: template-parts/single-post:26
+msgid "0 Comment"
+msgstr ""
+
+#: template-parts/single-post.php:26
+msgid "% Comment"
+msgstr ""
+
+#: template-parts/single-post:56
+msgid "Parent post link"
+msgstr ""
+
+#: template-parts/single-post:62
+msgid "Next post:"
+msgstr ""
+
+#: template-parts/single-post:65
+msgid "Previous post:"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:54
+msgid "Your order"
+msgstr ""

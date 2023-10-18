@@ -1,0 +1,135 @@
+/**
+Theme Name: Electronics Gadgets
+Theme URI: https://www.themescaliber.com/themes/free-gadget-wordpress-theme/
+Author: ThemesCaliber
+Author URI: https://www.themescaliber.com/
+Version: 1.1
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 7.2
+Template: electronics-store
+Text Domain: electronics-gadgets
+Description: Electronics Gadgets is a wonderful theme created with the Bootstrap framework and best represents the gadgets shops, electronic appliances stores, electrical markets and products, and eCommerce shops. This is such an incredible theme that doesn’t need you to write the codes and brings you a customizable design using which, you can create a website for any kind of eCommerce store. This is a Woocommerce integrated theme to deliver the best user experience to the buyers while shopping online and provides the sellers with the freedom to start selling products online and accepting online payments for them. It is made WPML and RTL compatible for making your website support multiple languages such as Arabic, Hebrew, and other international languages as well. There is a user-friendly interface which is great for beginners as they do not need to play with the coding part. Its responsive and retina-ready design will make the website look awesome on all the screens including mobile phones and tablets. Along with personalization options, there are SEO-friendly codes in the core for ensuring better traffic flows, and these codes are also optimized to give better performance. Many Call to Action Buttons (CTAs) are also included that will help in conversions. Social media icons also find a place in this theme. Demo: https://www.themescaliber.com/electronics-gadgets/
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, block-styles, wide-blocks, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, flexible-header, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, blog, portfolio, e-commerce
+
+Electronics Gadgets WordPress Theme is child theme of Electronics Store WordPress Theme, Copyright 2022 ThemesCaliber
+Electronics Gadgets is distributed under the terms of the GNU General Public License v3 or later
+
+Electronics Store WordPress Theme, Copyright 2022 ThemesCaliber
+Electronics Store is distributed under the terms of the GNU General Public License v3 or later
+*/
+.bypostauthor{
+  margin:0;
+  padding:0;
+}
+.topbar, .woocommerce-product-search button[type="submit"], .product-cat strong, .product-cat ul::-webkit-scrollbar, .product-cat ul::-webkit-scrollbar-thumb, #slider .read-btn a.blogbutton-small, #slider .carousel-control-next-icon i:hover, #slider .carousel-control-prev-icon i:hover, .woocommerce span.onsale, .woocommerce .add-to-wishlist-before_image .yith-wcwl-add-to-wishlist, .woocommerce a.added_to_cart.wc-forward, .primary-navigation ul ul a, .read-btn a.blogbutton-small, #sidebar th, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, nav.woocommerce-MyAccount-navigation ul li, .services-box .tc-category a {
+	background: #031424;
+}
+.logo h1 a, .logo p a, .logo p, .cart-icons span i, #slider .read-btn a.blogbutton-small:hover, #slider .carousel-control-next-icon i, #slider .carousel-control-prev-icon i, .footertown th, .footertown input[type="submit"], input[type="submit"], .footertown .tagcloud a:hover, .read-btn a.blogbutton-small:hover, .pagination .current, .page-links .current, .pagination a:hover, .page-links a:hover, #sidebar input[type="submit"], #sidebar .tagcloud a:hover, .woocommerce #respond input#submit, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce a.button, .metabox span.entry-date:hover, .entry-date:hover i, .metabox .entry-author:hover i, .entry-author:hover a, .metabox a, .metabox span, .metabox i {
+	color: #031424;
+}
+.metabox {
+	background: transparent;
+}
+.menu-section {
+    background: #efefef;
+    box-shadow: 0 7px 8px #00000029;
+}
+#menu-sidebar {
+    display: inline;
+}
+#slider .carousel-control-next-icon i, #slider .carousel-control-prev-icon i, .primary-navigation ul ul, .woocommerce-message {
+	border-color: #031424;
+}
+#slider .read-btn a.blogbutton-small, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	color: #fff;
+}
+.middle-header, #slider .read-btn a.blogbutton-small:hover, .footertown th, .footertown input[type="submit"], input[type="submit"], .footertown .tagcloud a:hover, .read-btn a.blogbutton-small:hover, .pagination .current, .page-links .current, .pagination a:hover, .page-links a:hover, #sidebar input[type="submit"], #sidebar .tagcloud a:hover, #comments input[type="submit"].submit, .woocommerce #respond input#submit, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.button.alt, .woocommerce button.button, .woocommerce a.button, .services-box span:after {
+	background: #FFC21F;
+}
+#sidebar ul {
+    padding: 10px;
+}
+.scrollup, a, a:hover, a:focus, a:hover,.footertown .widget ul li a:hover, .scrollup:focus, .scrollup:hover, #sidebar ul li a:hover, .comment-meta.commentmetadata a, p.logged-in-as a, .woocommerce-MyAccount-content p a, form.woocommerce-cart-form a, a.shipping-calculator-button, .textwidget a, .comment-list li.comment p a, #content-ma a, .entry-content a {
+	color: #FFC21F;
+}
+#slider {
+	background: #fff;
+}
+#slider .inner_carousel h1, #slider .inner_carousel p {
+	color: #000;
+}
+#slider .carousel-caption {
+	left: 10%;
+	right: 50%;
+}
+.product-category button {
+  display: block;
+  border: 0;
+  padding: 15px;
+  width: 100%;
+  background: #031424;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+.product-category button i{
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.product-cat {
+	display: none;
+}
+.product-cat {
+	top: 50px;
+	transform: none;
+	left: 0;
+	width: 100%;
+}
+.woocommerce ul.products li.product .yith-wcwl-add-to-wishlist, .woocommerce ul.products li.product .yith-wcwl-add-button, .woocommerce ul.products li.product a.add_to_cart_button, .woocommerce ul.products li.product a.button.yith-wcqv-button {
+	opacity: 0;
+}
+.woocommerce ul.products li.product:hover .yith-wcwl-add-to-wishlist, .woocommerce ul.products li.product:hover .yith-wcwl-add-button, .woocommerce ul.products li.product:hover a.add_to_cart_button, .woocommerce ul.products li.product:hover a.button.yith-wcqv-button {
+	opacity: 1;
+}
+.metabox span.entry-date:hover, .entry-date:hover i, .metabox .entry-author:hover i, .entry-author:hover a,.metabox .entry-time:hover,.entry-time:hover i{
+   color: #ffc21f !important;
+}
+.tc-single-category a{
+	background: #FFC21F;
+	color: #031424;
+}
+.primary-navigation ul li a:hover{
+	color: #ffc218;
+}
+@media screen and (max-width: 575px) {
+	#slider .carousel-caption {
+		left: 10%;
+		right: 10%;
+	}
+	.product-category {
+		padding: 10px 0 0 0;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.side-menu {
+		background: #031424;
+	}
+	.toggle-menu {
+		margin: 8px 0;
+	}
+	.primary-navigation ul li a:hover{
+		color: #031424;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+	#slider .inner_carousel h1{
+		display: none;
+	}
+}

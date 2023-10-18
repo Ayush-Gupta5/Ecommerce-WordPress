@@ -1,0 +1,94 @@
+.bi14-social-icon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bi14-social-icon .social-icon a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 35px;
+    text-decoration: none;
+}
+.bi14-social-icon .social-icon img{
+    width: 100%;
+}
+.bi14-social-icon .social-icon a span{
+    font-size: 22px;
+}
+.bi14-social-icon.social-icons-theme-one .social-icon a {
+    border-radius: 100px;
+}
+.bi14-social-icon.social-icons-theme-one .social-icon img{
+    border-radius: 100px;
+}
+.bi14-social-icon.social-icons-theme-two .social-icon a {
+    border-radius: 5px;
+    color: #6e6d6d;
+    background-color: #ccc8c7;
+}
+.bi14-social-icon.social-icons-theme-two .social-icon a img{
+    filter: grayscale(100%);
+}
+.bi14-social-icon.social-icons-theme-three .social-icon a {
+    border-radius: 5px;
+}
+.bi14-social-icon.social-icons-theme-four .social-icon a {
+    border-radius: 100px;
+    border: 5px double white;
+}
+.bi14-social-icon.social-icons-theme-four .social-icon a {
+    margin-right: 15px;
+}
+.bi14-social-icon .social-icon {
+    position: relative;
+    margin-bottom: 70px;
+}
+.bi14-social-icon .social-icon .social-icon-data{
+    position: relative;
+}
+.bi14-social-icon .social-icon .social-icon-tag {
+    position: absolute;
+    white-space: nowrap;
+    z-index: 100000;
+    top: -63px;
+    left: 0px;
+    padding: 12px 22px;
+    visibility: hidden;
+    opacity: 1 !important;
+    pointer-events: none;
+    -webkit-transition: all .25s !important;
+    transition: all .25s !important;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+.bi14-social-icon .social-icon-tag p{ 
+    margin: 0px;
+}
+.bi14-social-icon.social-icons-theme-one .social-icon-tag {
+    border-radius: 100px;
+}
+.bi14-social-icon.social-icons-theme-two .social-icon-tag {
+    border-radius: 5px;
+}
+.bi14-social-icon.social-icons-theme-three .social-icon-tag {
+    border-radius: 5px;
+}
+.bi14-social-icon.social-icons-theme-three .mpc-arrow {
+    position: absolute;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 9px;
+    right: 47%;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+    border-left-color: transparent !important;
+    bottom: -18px;
+}
+.bi14-social-icon.social-icons-theme-four .social-icon-tag {
+    border-radius: 10px;
+}
+

@@ -1,0 +1,574 @@
+.bi14-ribbon .ribbon h3{
+    margin-right: 5px !important;
+}
+.bi14-ribbon.ribbon-theme-one{
+    margin: 10px auto;
+}
+.bi14-ribbon.ribbon-theme-one .ribbon-content {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-size: cover;
+}
+.bi14-ribbon.ribbon-theme-one .ribbon-data {
+    position: relative;
+}
+.bi14-ribbon.ribbon-theme-one .ribbon {
+    position: absolute;
+    top: 0;
+    padding: 10px 0;
+    position: absolute;
+    top: -14px;
+    left: 25px;
+    z-index: 999;
+    text-align: center;
+    background: #F47530;
+}
+.bi14-ribbon.ribbon-theme-one .ribbon p ,
+.bi14-ribbon.ribbon-theme-one .ribbon h3 {
+    margin: 0px;
+    text-align: center;
+}
+.bi14-ribbon.ribbon-theme-one  span.ribbon-style-right , 
+.bi14-ribbon.ribbon-theme-one  span.ribbon-style-left  {
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: 999;
+    top: 0.1px;
+    border-bottom: 14px  solid #8D5A20;
+}
+.bi14-ribbon.ribbon-theme-one span.ribbon-style-right {
+    right: -13.5px;
+    border-right: 14px solid transparent;
+}
+.bi14-ribbon.ribbon-theme-one span.ribbon-style-left {
+    left: -13.5px;
+    border-left: 14px solid transparent;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-one .ribbon-content{
+    padding: 150px 50px 10px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-one .ribbon {
+    width: 180px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-one span.ribbon-border {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    left: 0;
+    bottom: -19px;
+    right: 0;
+    border-top: 19px solid #89a9ec;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-one .ribbon h3 {
+    font-size: 35px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-one .ribbon p {
+    font-size: 25px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two .ribbon-content{
+    padding: 200px 50px 10px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two span.ribbon-border {  
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two .ribbon {
+    width: 80px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two .ribbon h3 {
+    font-size: 28px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two .ribbon p {
+    font-size: 35px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-two span.ribbon-border {
+    height: 0;
+    width: 0;
+    bottom: -29.5px;
+    position: absolute;
+    left: 0;
+    border-bottom: 30px solid transparent;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three .ribbon-content{
+    padding: 120px 50px 75px;
+    border-radius: 5px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three .ribbon {
+    width: 250px;
+    height: 64px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: absolute;
+    left: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three .ribbon p, .bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three .ribbon h3{
+    font-size: 30px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three span.ribbon-style-left {
+    display: none;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three span.ribbon-style-right {
+    height: 0;
+    width: 0;
+    bottom: -8px;
+    left: 0;
+    top: auto;
+    z-index: 9;
+    border-left: 22px solid transparent;
+    border-right: 0;
+    border-bottom: 0;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-three span.ribbon-border {
+    height: 0;
+    width: 0;
+    top: 0;
+    right: -32px ;
+    border-left: 32px  solid transparent;
+    border-right: 32px  solid transparent;
+    position: absolute;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four span.ribbon-border {
+    height: 0;
+    width: 0;
+    top: 0;
+    right: -25px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four .ribbon {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    position: absolute;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    border-bottom-left-radius: 10px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four span.ribbon-style-right {
+    display: none;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four span.ribbon-style-right, .bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four span.ribbon-style-left{
+    top: -8px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four span.ribbon-style-left{
+    border-left: 0px solid transparent; 
+    border-right: 0px solid transparent; 
+    border-bottom: 0px solid transparent; 
+    width: 11px;
+    height: 10px;
+    bottom: -5px;
+    left: 0.5px;
+    border-radius: 100px 0px 0px 100px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four .ribbon p, .bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four .ribbon h3{
+    font-size: 20px;
+}
+.bi14-ribbon.ribbon-theme-one.ribbon-t1-variation-four .ribbon-content{
+    padding: 100px 50px 75px;
+    height: 350px;
+}
+
+/* Theme 3 */
+.bi14-ribbon.ribbon-theme-three .ribbon p ,
+.bi14-ribbon.ribbon-theme-three .ribbon h3 {
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one img.ribbon-image,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one img.ribbon-image {
+    width: 100%;
+    position: relative;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one div.ribbon ,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one div.ribbon {
+    position: absolute;
+    bottom: 24px;
+    padding: 10px 0;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    background: #F47530;
+    right: 0;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one  span.ribbon-style-right ,
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one  span.ribbon-style-left ,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one  span.ribbon-style-right ,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one  span.ribbon-style-left {
+    height: 0;
+    width: 0;
+    bottom: -12px;    
+    top: auto;
+    z-index: 9;
+    border-bottom: 0;
+    position: absolute;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one  span.ribbon-style-right,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one  span.ribbon-style-right{
+    border-left: 16px solid transparent;
+    border-right: 0;
+    left: 0;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-one  span.ribbon-style-left,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one  span.ribbon-style-left{
+    border-right: 16px solid transparent;
+    border-left: 0;
+    right: 0;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two .ribbon-content {
+    width: 100%;
+    position: relative;
+    padding: 70px 65px 10px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two .ribbon {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    left: -149px;
+    z-index: 2;
+    -webkit-transform: rotate( -45deg);
+    transform: rotate( -45deg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two .ribbon p, .bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two .ribbon h3 {
+    font-size: 13px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two  span.ribbon-style-right ,
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two  span.ribbon-style-left {
+    top: 0;
+    height: 0;
+    width: 0;
+    bottom: -17px;
+    top: auto;
+    border-bottom: 0;
+    position: absolute;
+    border-bottom: 9px solid #1d219a00; 
+    border-left: 9px solid #731e1e00;
+    border-right: 9px solid #661e7300;   
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two  span.ribbon-style-right{
+    left: 108px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-two  span.ribbon-style-left{
+    right: 109px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three .ribbon {
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    right: -132px;
+    z-index: 2;
+    -webkit-transform: rotate( 45deg);
+    transform: rotate( 45deg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three .ribbon p, .bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three .ribbon h3 {
+    font-size: 13px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three  span.ribbon-style-right ,
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three  span.ribbon-style-left {
+    top: 0;
+    height: 0;
+    width: 0;
+    bottom: -17px;
+    top: auto;
+    border-bottom: 0;
+    position: absolute;
+    border-bottom: 9px solid #1d219a00; 
+    border-left: 9px solid #731e1e00;
+    border-right: 9px solid #661e7300;   
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three  span.ribbon-style-right{
+    left: 108px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three  span.ribbon-style-left{
+    right: 83px;
+}
+.bi14-ribbon.ribbon-theme-three.ribbon-t3-variation-three .ribbon-content {
+    width: 100%;
+    position: relative;
+    padding: 70px 65px 10px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    border-radius: 5px;
+}
+/* theme 4 */
+.bi14-ribbon.ribbon-theme-four .ribbon p, .bi14-ribbon.ribbon-theme-four .ribbon h3 {
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-one div.ribbon{
+    bottom: auto;
+    top: 24px;
+}
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-two div.ribbon,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-three div.ribbon{
+    padding: 10px 0;
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 80%;
+    z-index: 999;
+    text-align: center;
+    background: #F47530;
+    height: 75px;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-two .ribbon-content,
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-three .ribbon-content  {
+    padding: 100px 50px 20px;
+}
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-two span.ribbon-style-right {
+    height: 75px;
+    width: 15px;
+    background: linear-gradient(
+-145deg
+, #81d742 5px, transparent 0) 0 5px, linear-gradient(
+320deg
+, #81d742 5px, #81d74200 0) 0 5px;
+    background-position: left bottom;
+    background-repeat: repeat-y;
+    background-size: 10px 12px;
+    position: absolute;
+    left: -10px;
+}
+.bi14-ribbon.ribbon-theme-four.ribbon-t4-variation-two span.ribbon-style-left {
+    height: 75px;
+    width: 15px;
+    background: linear-gradient( 
+-145deg
+ , #81d742 5px, transparent 0) 0 5px, linear-gradient( 
+320deg
+ , #81d742 5px, #81d74200 0) 0 5px;
+    background-position: left bottom;
+    background-repeat: repeat-y;
+    background-size: 10px 12px;
+    position: absolute;
+    right: -10px;
+    transform: rotate(180deg);
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one .ribbon{
+    width: 400px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    left: -149px;
+    z-index: 2;
+    -webkit-transform: rotate( -45deg);
+    transform: rotate( -45deg);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one span.ribbon-style-right, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one span.ribbon-style-left {
+    top: 40px;
+    height: 0;
+    width: 0;
+    bottom: -17px;
+    border-bottom: 0;
+    position: absolute;
+    border-bottom: 7px solid #1d219a00;
+    border-left: 7px solid #731e1e00;
+    border-right: 7px solid #661e7300;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one .ribbon p, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one .ribbon h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one span.ribbon-style-right {
+    left: 108px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one span.ribbon-style-left {
+    right: 108px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-one .ribbon-content {
+    width: 100%;
+    padding: 30px 80px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-two .ribbon {
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 157px;
+    height: 89px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    border: 1px solid;
+    border-top: 0 !important;
+    z-index: 999;
+    text-align: center;
+    margin: 0 auto;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-two .ribbon-content {
+    padding: 100px 50px 20px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-two .ribbon p, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-two .ribbon h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+/* .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-two .ribbon-border{
+    height: 0;
+    width: 0;
+    bottom: -29.5px;
+    position: absolute;
+    left: 0;
+    border-bottom: 30px solid transparent;
+} */
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four .ribbon-content {
+    padding: 100px 50px 20px;
+    box-shadow:  10px 9px 1px #7d8a73;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four div.ribbon {
+    padding: 10px 0;
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 70%;
+    z-index: 999;
+    text-align: center;
+    height: 64px;
+    right: 0;
+    margin: 0 auto;
+    top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four span.ribbon-style-right {
+    height: 0;
+    width: 0;
+    top: 0;
+    right: -32px;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    position: absolute;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four span.ribbon-style-left {
+    height: 0;
+    width: 0;
+    top: 0;
+    left: -32px;
+    border-left: 32px solid transparent;
+    border-right: 32px solid transparent;
+    position: absolute;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four .ribbon p, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-four .ribbon h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon p ,
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon h3{
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon h3{
+    font-size: 25px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon p {
+    font-size: 18px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon {
+    padding: 92px 0 0px;
+    position: absolute;
+    top: -61px;
+    right: -78px;
+    width: 200px;
+    height: 182px;
+    border-bottom-right-radius: 108px;
+    border-bottom-left-radius: 108px;
+    border: 1px solid;
+    border-top: 0 !important;
+    z-index: 999;
+    text-align: center;
+    transform: rotate(45deg);
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon-data {
+    position: relative;
+    overflow: hidden;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five  .ribbon-content {
+    padding: 120px 20px 20px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon p, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-five .ribbon h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon p, .bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon-content{
+    padding: 120px 20px 20px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon {
+    background-color: rgb(129, 215, 66);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 100px;
+    height: 100px;
+    border-top: 0 !important;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon .ribbon-icon-image{
+    max-width: 100px;
+    width: 100%;
+    height: 100px;
+}
+.bi14-ribbon.ribbon-theme-two.ribbon-t2-variation-three .ribbon .ribbon-icon-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

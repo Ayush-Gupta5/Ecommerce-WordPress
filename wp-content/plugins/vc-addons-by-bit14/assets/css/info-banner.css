@@ -1,0 +1,57 @@
+/*==================Info Banner==========================*/
+.info-banner{padding: 20px 0}
+body .info-banner .bit14-banners{margin: 0;}
+
+/*Three Columns*/
+.info-banner .bit14-banners .column-three {width: calc(100% / 3 - 13px );display: inline-block;margin-right: 19px ;vertical-align: top;}
+.info-banner .bit14-banners .column-three:last-child{margin:0 auto;}
+.info-banner:not(.hover-box) .bit14-banners .column-three .bit-col-wrapper{filter: grayscale(1);height: 690px;background-repeat: no-repeat ;background-size: cover ;background-position: center ;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.info-banner .bit14-banners .column-three .bit-col-wrapper:hover{filter: grayscale(0);}
+.info-banner:not(.hover-box) .bit14-banners .column-three .bit-banner-title{font-size: 4em;font-weight: 600;margin: 0 0 40px;}
+.info-banner .bit14-banners .column-three .bit-banner-content p{font-size: 1.2em;line-height: 1.7;margin: 0 0 20px;text-align: center;padding: 0 20px;}
+.info-banner .bit14-banners .column-three .btn {width: 70%;}
+.info-banner:not(.hover-box) .bit14-banners .column-three .btn a {font-size: 2.14em;width: 100%;display: block;background: #000;border-radius: 50px;padding: 10px 0;}
+
+/*One Column*/
+.info-banner .bit14-banners .column-one .bit-col-wrapper{background-repeat: no-repeat ;background-size: cover ;background-position: center ;padding: 30px 80px;}
+.info-banner .bit14-banners .column-one{margin-bottom:10px; }
+.info-banner .bit14-banners .column-one .bit-banner-title{font-size: 2.5em;font-weight: 600;margin: 0 0 20px;}
+.info-banner .bit14-banners .column-one .bit-banner-content{width: 60%}
+.info-banner .bit14-banners .column-one .bit-banner-content p{font-size: 1.2em;line-height: 1.7}
+.info-banner .bit14-banners .column-one .btn {width: 200px;padding: 0;text-align:center;display: inline-block;}
+.info-banner .bit14-banners .column-one .btn a {font-size: 1.5em;width: 100%;background-color:black ;display: block;border-radius: 50px;padding: 8px 0;text-align: center;}
+
+/*Two Column*/
+.info-banner .bit14-banners .column-two {width: calc(100% / 2 - 10px );display: inline-block;margin-right: 20px ;vertical-align: top;margin-bottom: 17px;}
+.info-banner .bit14-banners .column-two .bit-col-wrapper{height: 450px;background-repeat: no-repeat ;background-size: cover ;background-position: center ;display: flex;flex-direction: column;justify-content: center;align-items: center;position: relative;width:100%;}
+.info-banner .bit14-banners .column-two .bit-banner-title{font-size: 2.5em;color: #fff;font-weight: 600;margin: 0 0 20px;z-index: 9}
+.info-banner .bit14-banners .column-two .bit-banner-content{z-index: 9}
+.info-banner .bit14-banners .column-two .bit-banner-content p{color: #fff;font-size: 1.2em;line-height: 1.7;text-align: center;padding: 0 100px;}
+.info-banner .bit14-banners .column-two .btn {padding: 0;z-index: 9}
+.info-banner .bit14-banners .column-two .btn a {color: #fff;font-size: 1.5em;width: 100%;display: block;background: #000;border-radius: 50px;padding: 8px 10px;}
+.info-banner .bit14-banners .column-two .btn a:hover{background: #0b87b8;color: #fff;}
+.info-banner .bit14-banners .column-two .bit-col-wrapper:after{content: '';position: absolute;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0, 0, 0, 0.4);transition: 0.5s ease all}
+.info-banner .bit14-banners .column-two .bit-col-wrapper:hover:after{background: rgba(0, 0, 0, 0.7);}
+
+/*hover*/
+.info-banner.hover-box .bit14-banners{height: 400px;display: flex;align-items: center;}
+.info-banner.hover-box .bit14-banners .bit-banner{height: 300px;position: relative;overflow: hidden;transition: 0.5s all ease;}
+.info-banner.hover-box .bit14-banners .bit-banner:hover{height: 400px;}
+.info-banner.hover-box .bit14-banners .bit-banner .bit-col-wrapper{background-size:cover;background-repeat: no-repeat; filter: grayscale(1);height: 100%;display: flex;justify-content: center;align-items: center;flex-direction: column;transition: 0.5s all ease;}
+.info-banner.hover-box .bit14-banners .bit-banner:hover .bit-col-wrapper{filter: grayscale(0);height: calc(100% - 50px);}
+.info-banner.hover-box .bit14-banners .bit-banner .bit-col-wrapper .bit-banner-title{font-size:35px;font-weight: bold;}
+.info-banner.hover-box .bit14-banners .bit-banner .bit-col-wrapper .btn{position: absolute;bottom: -70px }
+.info-banner.hover-box .bit14-banners .bit-banner:hover .btn{bottom: -40px}
+
+@media (max-width: 1024px) {
+  .info-banner.hover-box .bit14-banners{flex-direction: column;}
+  .info-banner.hover-box .bit14-banners{height:auto}
+  .info-banner.hover-box .bit14-banners:hover{height:auto;}
+  .info-banner .bit14-banners .column-three{max-width:500px; width: 100%;margin: auto;display: block;margin-bottom: 30px}
+}
+@media (max-width: 767px) {
+.info-banner .bit14-banners .column-two{max-width:500px; width: 100%;margin: auto;display: block;margin-bottom: 30px}
+}
+
+
+

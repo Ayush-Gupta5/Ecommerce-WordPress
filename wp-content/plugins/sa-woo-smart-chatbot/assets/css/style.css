@@ -1,0 +1,341 @@
+#wscb-body
+{
+position: relative;
+z-index: 1111111111111111;
+}
+#wscb-chat-circle {
+  position: fixed;
+  bottom: 50px;
+  overflow: hidden;
+  right: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: white;
+  max-width: 60px;
+  cursor: pointer;
+  box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 60%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+  
+  #wscb-chat-overlay {
+      background: rgba(255,255,255,0.1);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      display: none;
+  }
+  
+  
+  .wscb-chat-box {
+    display:none;
+    background: #efefef;
+    position:fixed;
+    right:30px;
+    bottom:50px;  
+    width:350px;
+    max-width: 85vw;
+    max-height:100vh;
+    border-radius:5px;  
+  /*   box-shadow: 0px 5px 35px 9px #464a92; */
+    box-shadow: 0px 5px 35px 9px #ccc;
+  }
+  .wscb-chat-box-toggle {
+    float:right;
+    margin-right:15px;
+    cursor:pointer;
+  }
+  .wscb-chat-box-header {
+    height:70px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px; 
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding-top:17px;
+  }
+  .wscb-chat-box-body {
+    position: relative;  
+    height:370px;  
+    height:auto;
+    border:1px solid #ccc;  
+    overflow: hidden;
+  }
+  .wscb-chat-box-body:after {
+    content: "";
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height:100%;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+  #wscb-chat-input {
+    background: #f4f7f9;
+    width: 85%;
+    position: relative;
+    height: 45px !important;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border: none;
+    resize: none;
+    outline: none;
+    color: #888;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
+    font-size: 16px !important;
+}
+
+.wscb-chat-input
+{
+    background: #f4f7f9;
+    border: 1px solid #ccc;
+    border-top:none;
+}
+
+button#chat-submit:focus
+{
+    outline:none;
+}
+
+
+
+  .wscb-chat-input > form {
+      margin-bottom: 0;
+  }
+  #wscb-chat-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ccc;
+  }
+  #wscb-chat-input::-moz-placeholder { /* Firefox 19+ */
+    color: #ccc;
+  }
+  #wscb-chat-input:-ms-input-placeholder { /* IE 10+ */
+    color: #ccc;
+  }
+  #wscb-chat-input:-moz-placeholder { /* Firefox 18- */
+    color: #ccc;
+  }
+  .wscb-chat-submit {
+    position: absolute !important;
+    bottom: 7px !important;
+    right: 10px !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    cursor: pointer !important;
+    font-size: 15px !important;
+    padding: 0px 10px !important;
+}
+  .wscb-chat-logs {
+    padding:15px; 
+    height:370px;
+    overflow-y:scroll;
+  }
+  
+  .wscb-chat-logs::-webkit-scrollbar-track
+  {
+     box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      background-color: #F5F5F5;
+  }
+  
+  .wscb-chat-logs::-webkit-scrollbar
+  {
+      width: 5px;  
+      background-color: #F5F5F5;
+  }
+
+.wscb-chat-logs::-webkit-scrollbar-thumb
+{
+  background-color: #2488ff;
+}
+  
+  
+  
+  @media only screen and (max-width: 500px) {
+     .wscb-chat-logs {
+          height:40vh;
+      }
+  }
+  
+  .wscb-chat-msg.wscb-user > .wscb-msg-avatar img {
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    float:left;
+    width:15%;
+  }
+  .wscb-chat-msg.wscb-self > .wscb-msg-avatar img {
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    float:right;
+    width:15%;
+  }
+  .wscb-cm-msg-text {
+    background:white;
+    padding:10px 15px 10px 15px;  
+    color:#666;
+    max-width:75%;
+    float:left;
+    margin-left:10px; 
+    position:relative;
+    margin-bottom:20px;
+    border-radius:30px;
+    font-size:16px;
+  }
+  .wscb-chat-msg {
+    clear:both;    
+  }
+  .wscb-chat-msg.wscb-self > .wscb-cm-msg-text {  
+    float:right;
+    margin-right:10px;
+    color:white;
+  }
+
+  .wscb-chat-msg.wscb-cats
+  {
+    display: inline;
+  }
+
+
+  .wscb-chat-msg.wscb-cats > .wscb-cm-msg-text a
+  {
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+  }
+  .wscb-chat-msg.wscb-cats > .wscb-cm-msg-text
+  {
+    margin: 2px;
+  }
+
+
+ 
+
+  .wscb-cm-msg-button>ul>li {
+    list-style:none;
+    float:left;
+    width:50%;
+  }
+  .wscb-cm-msg-button {
+      clear: both;
+      margin-bottom: 70px;
+  }
+
+
+
+  .wscb-chat-box-header .fa-robot {
+    font-size: 30px;
+}
+
+.wscb-typing-loader
+{
+  display: none;
+}
+
+.wscb-typing-loader img
+{
+  width: 60px;
+  display: inline;
+}
+
+.wscb-typing-loader span {
+  display: inline;
+  top: -15px;
+  position: relative;
+  font-style: italic;
+  color: #999;
+}
+
+button#wscb-chat-submit:focus {
+  outline: none;
+}
+
+.link-no-style
+{
+  text-decoration: none;
+}
+
+.wscb-product-images
+{
+  list-style: none;
+  margin: 0px;
+}
+
+.wscb-product-images li{
+  float:left;
+  margin: 5px;
+  position:relative;
+  width: 90px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.wscb-product-images li img{
+  width:inherit;
+}
+
+.wscb-product-title {
+  position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #0000009e;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    top: 0px;
+    display: none;
+}
+
+.wscb-product-images li:hover .wscb-product-title{
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+.wscb-reset-link
+{
+  position: absolute;
+    left: 10px;
+    font-size: 16px;
+    color: white;
+    top: 21px;
+}
+
+
+.wscb-see-more-link{
+  text-align: center !important;
+  display: block;
+  color: #2488ff !important;
+  text-decoration: none;
+  clear: both;
+  padding: 10px;
+
+}
+
+.wscb-catalog
+{
+  color: #2488ff !important;
+}
+
+.wscb-product-title .amount {
+  font-weight: bolder;
+}
+
+@media screen and (max-width:780px)
+{
+  .wscb-product-title
+  {
+    display: block;
+  }
+}
+

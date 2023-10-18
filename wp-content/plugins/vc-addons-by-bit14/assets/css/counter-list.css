@@ -1,0 +1,135 @@
+/*--------------------------------------------------------------
+# Counter
+--------------------------------------------------------------*/
+
+
+.bit-counters-list-pro .outer {
+  max-width: 100%;
+  text-align: center;
+}
+svg {
+  height: 100%;
+}
+
+text {
+  fill: #fff;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+}
+.counter-item-pro{
+  text-align:center;
+}
+.counter-item-pro.counter-seperated-pro {
+  padding-bottom: 16px;
+}
+
+.counter-item-pro .counter-border {
+  text-align: center;
+  padding: 35px 0;
+  }
+  .counter-item-pro .counter-border > span {
+    color: inherit;
+    display: block;
+    margin: auto;
+    text-align: inherit; 
+    text-transform: uppercase;
+  }
+.counter-pro.theme-2 .counter-item-pro .counter-border > span.counter-item-icon-pro i{
+  height: auto;
+}
+    .counter-item-pro .counter-border > span.counter-item-icon-pro i {
+     /* border: solid 1px;*/
+      text-align: center;
+      border-radius: 100%;
+      height: 82px;
+      width: 82px;
+      line-height: 82px;
+      font-size: 30px; }
+    .counter-item-pro .counter-border > span.counter-item-title-pro {
+      font-size: 18px;
+      line-height: normal; }
+    .counter-item-pro .counter-border > span.counter-item-number-pro {
+      font-size: 50px;
+      font-weight: 900;
+      line-height: normal; }
+
+.percent-container-pro {
+  position: relative;
+  margin-bottom: 10px; }
+  .percent-container-pro #svg {
+    display: block;
+    margin: auto;
+    }
+    .percent-container-pro #svg circle {
+      stroke-dashoffset: 0;
+      transition: stroke-dashoffset 1s linear;
+      stroke-width: 14px; }
+    .percent-container-pro #svg #bar {
+      fill: transparent; }
+    .percent-container-pro #svg #bar.tobe-pro {
+      stroke-dashoffset: 565.5 !important; }
+  .percent-container-pro .circularbg-pro {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #4c4c4c;
+    border-radius: 100%;
+    line-height: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold; }
+  .percent-container-pro .circularbg-pro text {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold; }
+
+
+.bit-counters-list-pro .theme-2 .counter-item-pro .counter-border {
+  text-align: center;
+  padding: 25px 0px 45px;
+}
+.bit-counters-list-pro .theme-2 .counter-item-pro .counter-border > span.counter-item-icon-pro i {
+  line-height: 62px;
+  font-size: 40px;
+  }
+
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border {
+  text-align: center;
+  padding:10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 6px 16px 0px #f0f0f0;
+}
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border .counter-content-container {
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  justify-content: center;
+  text-align: left;
+}
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border .counter-content-container .counter-item-number-pro{
+  font-size: 38px;
+  font-weight: bold;
+  line-height: normal;
+}
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border > span.counter-item-icon-pro i{
+  font-size: 40px;
+}
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border .counter-content-container .counter-item-title-pro{
+  font-size:15px;
+  line-height: normal;
+  text-transform:uppercase;
+}
+.bit-counters-list-pro .theme-3 .counter-item-pro .counter-border > span{margin:0}
+/*--------------------------------------------------------------
+# Counter Ends
+--------------------------------------------------------------*/   
+

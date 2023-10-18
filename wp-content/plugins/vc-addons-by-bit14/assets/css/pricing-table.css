@@ -1,0 +1,296 @@
+/*--------------------------------------------------------------
+# Pricing Table
+--------------------------------------------------------------*/
+
+.bit_table_group {
+  display: block;
+}
+
+.bit_table_group .bit_table {
+  text-align: center;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.bit_table_group .bit_table .bit_pricing_table_list {
+  padding: 0;
+  margin: 0;
+}
+
+.bit_table_group .bit_table .bit_pricing_table_list li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 8px 0;
+}
+
+.bit_table_group .bit_table .pricing_table_list_button {
+  display: block;
+  text-align: center;
+}
+
+.bit_table_group .bit_table .pricing_table_list_button a {
+  min-width: 60%;
+  border-radius: 0;
+  white-space: inherit;
+}
+
+.bit_table_group.theme-one .bit_table
+{
+  text-align: center;
+}
+.bit_table_group .bit_table .bit_table_table .bit_table_row 
+{
+  text-align: center;
+}
+
+.bit_table_group.theme-one .bit_table>div {
+  padding: 25px;
+  border-radius: 0;
+  border: solid 1px;
+  border-color: inherit;
+}
+
+
+.bit_table_group.theme-one .bit_table h2 {
+  margin: 15px 0 0;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+}
+
+.bit_table_group.theme-one .bit_table .price {
+  font-weight: bold;
+  font-size: 4.2em;
+  line-height: normal;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.bit_table_group.theme-one .bit_table .price .duration {
+  display: block;
+  font-size: 0.45em;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+
+.bit_table_group.theme-one .bit_table .description {
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+}
+
+.bit_table_group.theme-one .bit_table .bit_pricing_table_list {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: inherit;
+  margin-top: 20px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+
+.bit_table_group.theme-one .bit_table .bit_pricing_table_list li p {
+  margin: 0;
+}
+
+.bit_table_group.theme-one .bit_table .bit_pricing_table_list li span,
+.bit_table_group.theme-one .bit_table .bit_pricing_table_list li i {
+  display: block;
+  text-align: center;
+}
+
+.bit_table_group.theme-one .bit_table .bit_pricing_table_list li i {
+  font-size: 15px;
+}
+
+.bit_table_group.theme-one .bit_table .btn {
+  margin-top: 35px;
+  border-radius: 0;
+  text-align: center;
+  padding: 15px;
+  border: none;
+}
+
+
+.bit_table_group.theme-two .bit_table {
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table>div {
+  padding: 25px 10px;
+  border-radius: 0;
+  border: solid 1px;
+  border-color: inherit;
+}
+
+.bit_table_group.theme-two .bit_table h2 {
+  margin: 15px 0 0;
+  font-size: 1.2em;
+  font-weight: 100;
+  line-height: normal;
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table .price {
+  font-weight: bold;
+  font-size: 2.22em;
+  line-height: normal;
+  margin-bottom: 15px;
+  display: block;
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table .price .duration {
+  display: block;
+  font-size: 0.45em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table .description {
+  margin: 0 0 15px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table .bit_pricing_table_list {
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: inherit;
+  margin-top: 20px;
+  padding: 35px 10px 35px;
+}
+
+.bit_table_group.theme-two .bit_table .bit_pricing_table_list li p {
+  margin: 0;
+}
+
+.bit_table_group.theme-two .bit_table .bit_pricing_table_list li span,
+.bit_table_group.theme-two .bit_table .bit_pricing_table_list li i {
+  display: block;
+  text-align: center;
+}
+
+.bit_table_group.theme-two .bit_table .bit_pricing_table_list li i {
+  font-size: 15px;
+}
+
+.bit_table_group.theme-two .bit_table .btn {
+  margin-top: 35px;
+  border-radius: 0;
+  text-align: center;
+  padding: 15px;
+}
+
+.bit_table_group.theme-three .bit_table {
+  width: 100%;
+}
+
+.bit_table_group.theme-three .bit_table .bit_table_table {
+  display: table;
+  width: 100%;
+  border: solid 1px;
+  text-align: center;
+}
+
+.bit_table_group.theme-three .bit_table .bit_table_table .bit_table_row {
+  width: 100%;
+  border: solid 1px;
+  display: table-row;
+  text-align: center;
+}
+
+.bit_table_group.theme-three .bit_table h2,
+.bit_table_group.theme-three .bit_table .bit-price-description,
+.bit_table_group.theme-three .bit_table .bit_pricing_table_list,
+.bit_table_group.theme-three .bit_table .pricing_table_list_button {
+  display: table-cell;
+  vertical-align: middle;
+  width: 25%;
+}
+
+@media (max-width: 768px) {
+  .bit_table_group.theme-three .bit_table h2,
+  .bit_table_group.theme-three .bit_table .bit-price-description,
+  .bit_table_group.theme-three .bit_table .bit_pricing_table_list,
+  .bit_table_group.theme-three .bit_table .pricing_table_list_button {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}
+
+.bit_table_group.theme-three .bit_table h2 {
+  font-size: 1em;
+  text-align: center;
+  padding: 20px 0;
+  margin: 0 0 20px;
+}
+
+.bit_table_group.theme-three .bit_table .bit-price-description {
+  text-align: center;
+  padding: 0 30px;
+}
+
+.bit_table_group.theme-three .bit_table .bit-price-description .price {
+  display: block;
+  font-size: 2.22em;
+  font-weight: bold;
+  line-height: normal;
+  text-align: center;
+}
+
+.bit_table_group.theme-three .bit_table .bit-price-description .price .duration {
+  display: block;
+  font-size: 0.45em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.bit_table_group.theme-three .bit_table p {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bit_table_group.theme-three .bit_table .bit_pricing_table_list {
+  padding: 30px 0;
+}
+
+.bit_table_group.theme-three .bit_table .bit_pricing_table_list li {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.bit_table_group.theme-three .bit_table .bit_pricing_table_list li i {
+  border: solid 1px;
+  border-color: inherit;
+  border-radius: 100%;
+  font-size: 10px;
+  padding: 3px;
+  margin: 4px;
+}
+
+.bit_table_group.theme-three .bit_table .bit_pricing_table_list li span {
+  display: block;
+  text-align: center;  
+}
+
+.bit_table_group.theme-three .bit_table .pricing_table_list_button {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.bit_table_group.theme-three .bit_table .pricing_table_list_button a {
+  border: none;
+}

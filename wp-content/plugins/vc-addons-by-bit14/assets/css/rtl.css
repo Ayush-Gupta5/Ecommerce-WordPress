@@ -1,0 +1,70 @@
+*{
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: embed;
+}
+.theme-3.progress-bar-class .bit-progress-bar h2{
+    right: 30px;
+    left: auto;
+}
+.progress-bar-class .bit-progress-bar .progress-label {
+    right:0;
+    left: auto;
+}
+.theme-2 .bit-progress-bar .ui-progressbar-value:after {
+    left: -3px;
+    right: auto !important;
+}
+.slick-track{
+    right: 0;
+}
+.bit-counters-list-pro .outer{
+    display: flex;
+    flex-wrap: wrap;
+}
+#bit-testimonials-pro.testimonial-style-three-pro .bit-testimonial-container-pro .bit-author-details .testimonial-author-image{
+    margin-left: 0 !important;
+}
+.info-banner .bit14-banners .column-two{
+    width: calc(100% / 2 - 20px ) !important;
+    margin-right: 0;
+    margin: 0 10px;
+}
+.info-banner .bit14-banners .column-three:last-child{
+    margin-right: 19px !important;
+}
+#bit-testimonials-pro.testimonial-style-two-pro .slick-slider .slick-arrow{
+    margin: 0px !important;
+}
+.info-banner .bit14-banners .column-two .bit-banner-title{
+    text-align: center;
+}
+.info-banner .bit14-banners .column-two:nth-child(even){
+    margin: 0 auto 30px  !important;
+}
+.bit-col-wrapper > h2 {
+    text-align: center;
+}
+.bit-tab-container .tabs .bit-tab-li{
+    float: right !important;
+}
+.bit-tab-container .tabs input[type="radio"]{
+    left: auto;
+    right: -9999px !important;
+}
+@media (max-width: 1024px) {
+    .info-banner .bit14-banners .column-three:last-child{
+        margin-right: auto !important;
+    }
+}
+@media (max-width: 764px) {
+    .info-banner .bit14-banners .column-two{
+        width: 100% !important;
+    }
+    .bit-tab-container .tabs .tab-content{
+        right: 40px;
+        left: 0 !important;
+        top: 7px !important;
+    }
+
+}

@@ -1,0 +1,218 @@
+/*--------------------------------------------------------------
+# Tabs
+--------------------------------------------------------------*/
+.bit-tab-container {
+  margin: 20px 0; }
+  .bit-tab-container .tabs {
+    float: none;
+    list-style: none;
+    position: relative;
+    padding-left: 0px !important;
+    text-align: left;
+    float: left;
+    width: 100%; }
+    .bit-tab-container .tabs .bit-tab-li {
+      display: inline-block;
+      margin-top: 5px;
+      float: left; }
+    .bit-tab-container .tabs input[type="radio"] {
+      position: absolute;
+      top: 0;
+      left: -9999px; }
+    .bit-tab-container .tabs label {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      font-size: 18px;
+      font-weight: normal;
+      text-transform: uppercase;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease-in-out;
+      margin: 0px; }
+    .bit-tab-container .tabs .tab-content {
+      z-index: 2;
+      display: none;
+      overflow: hidden;
+      width: 100%;
+      font-size: 18px;
+      line-height: 25px;
+      padding: 25px;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      color: #9a9a9a; }
+
+/*
+===================================================
+Themes for bit 14 tabs
+===================================================
+*/
+.tab-style-one .tabs .bit-tab-li {
+  background: #ffffff; }
+  .tab-style-one .tabs .bit-tab-li label {
+    position: relative; }
+    .tab-style-one .tabs .bit-tab-li label:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 0;
+      height: 2px;
+      background: #000000;
+      bottom: 0px;
+      left: 0;
+      transition: width .3s; }
+    .tab-style-one .tabs .bit-tab-li label:hover::after {
+      width: 100%; }
+  .tab-style-one .tabs .bit-tab-li:not(:last-child) {
+    border-right: 1px solid #9a9a9a; }
+  .tab-style-one .tabs .bit-tab-li i.tab-head-icon {
+    padding: 10px; }
+.tab-style-one .tabs .tab-content {
+  background: transparent; }
+.tab-style-one .tabs [id^="tab"]:checked + label {
+  border-bottom: 0px solid #000000;
+  box-shadow: inset 0 -2px 0 #000000;
+  box-sizing: border-box; }
+.tab-style-one .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block; }
+
+.tab-style-two .tabs .bit-tab-li {
+  background: #e4e4e4; }
+  .tab-style-two .tabs .bit-tab-li label:hover {
+    background: #ececec; }
+  .tab-style-two .tabs .bit-tab-li label:not(:last-child) {
+    border-right: 1px solid #9a9a9a; }
+  .tab-style-two .tabs .bit-tab-li label i.tab-head-icon {
+    padding: 10px; }
+.tab-style-two .tabs .tab-content {
+  background: white; }
+.tab-style-two .tabs [id^="tab"]:checked + label {
+  top: 0;
+  background: white;
+  border: none; }
+.tab-style-two .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block; }
+
+.tab-style-three .tabs .bit-tab-li {
+  background: transparent; }
+  .tab-style-three .tabs .bit-tab-li label {
+    position: relative; }
+    .tab-style-three .tabs .bit-tab-li label:after, .tab-style-three .tabs .bit-tab-li label:before {
+      content: '';
+      display: block;
+      position: absolute;
+      height: 2px;
+      bottom: 0px;
+      left: 0;
+      transition: width .3s;
+      text-align: center; }
+    .tab-style-three .tabs .bit-tab-li label:after {
+      background: #000000;
+      width: 0; }
+    .tab-style-three .tabs .bit-tab-li label:before {
+      width: 100%;
+      background: #e4e4e4; }
+    .tab-style-three .tabs .bit-tab-li label:hover::after {
+      width: 100%; }
+  .tab-style-three .tabs .bit-tab-li:not(:last-child) {
+    border-right: none; }
+  .tab-style-three .tabs .bit-tab-li i.tab-head-icon {
+    display: block;
+    padding-bottom: 10px;
+    text-align: center; }
+.tab-style-three .tabs .tab-content {
+  background: transparent; }
+.tab-style-three .tabs .bit-tab-head:checked + label {
+  border-bottom: 0px solid #000000;
+  box-shadow: inset 0 -2px 0 #000000;
+  box-sizing: border-box;
+  position: relative; }
+  .tab-style-three .tabs .bit-tab-head:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    bottom: 0px;
+    left: 0;
+    transition: width .3s;
+    text-align: center;
+    background: #000000;
+    width: 100%; }
+.tab-style-three .tabs .bit-tab-head:checked ~ .tab-content {
+  display: block; }
+
+/*
+===================================================
+Themes Queries for bit 14 tabs 768
+===================================================
+*/
+@media (max-width: 768px) {
+  .bit-tab-container .tabs .bit-tab-li {
+    display: block;
+    margin-top: 0px;
+    width: 120px;
+    background: transparent; }
+  .bit-tab-container .tabs label {
+    display: block;
+    padding: 25px 25px !important;
+    text-align: center;
+    font-size: 15px; }
+    .bit-tab-container .tabs label i.tab-head-icon {
+      display: block;
+      text-align: center; }
+    .bit-tab-container .tabs label:not(:last-child) {
+      border-bottom: 2px solid #9a9a9a; }
+  .bit-tab-container .tabs .tab-content {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    top: 0;
+    left: 118px;
+    background: transparent;
+    height: 0px;
+    width: calc( 100% - 120px);
+    padding: 0 25px 0; }
+  .bit-tab-container .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+    height: 100%;
+    overflow-y: auto;
+    width: calc( 100% - 120px); }
+  .bit-tab-container.tab-style-one .tabs .bit-tab-li, .bit-tab-container.tab-style-two .tabs .bit-tab-li, .bit-tab-container .tab-style-three .tabs .bit-tab-li {
+    border-right: 1px solid #9a9a9a; }
+  .bit-tab-container.tab-style-one .tabs label, .bit-tab-container.tab-style-two .tabs label, .bit-tab-container .tab-style-three .tabs label {
+    background: #e4e4e4; }
+    .bit-tab-container.tab-style-one .tabs label:not(:last-child), .bit-tab-container.tab-style-two .tabs label:not(:last-child), .bit-tab-container .tab-style-three .tabs label:not(:last-child) {
+      border-right: none; }
+  .bit-tab-container.tab-style-one .tabs .tab-content, .bit-tab-container.tab-style-two .tabs .tab-content, .bit-tab-container .tab-style-three .tabs .tab-content {
+    background: #ececec; }
+  .bit-tab-container.tab-style-one .tabs [id^="tab"]:checked + label, .bit-tab-container.tab-style-two .tabs [id^="tab"]:checked + label, .bit-tab-container .tab-style-three .tabs [id^="tab"]:checked + label {
+    top: 0;
+    background: #ffffff;
+    border: none; }
+  .bit-tab-container.tab-style-one .tabs [id^="tab"]:checked ~ [id^="tab-content"], .bit-tab-container.tab-style-two .tabs [id^="tab"]:checked ~ [id^="tab-content"], .bit-tab-container .tab-style-three .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+    display: block;
+    background: #ffffff; } }
+  @media (max-width: 770px) {
+  
+  .bit-tab-container .tabs .tab-content {   
+      left: 0px;
+      width: 100%;
+      padding: 0px 25px 0;
+      top: 0;
+      margin: 105px 0px;
+  } 
+  .bit-tab-container {
+    margin: 0px 0 126px;
+  }
+  }
+  @media (max-width: 520px) {
+    .bit-tab-container .tabs .tab-content {   
+       margin: 90px 0px; } 
+  .bit-tab-container .tabs .bit-tab-li {
+    width: 90px; }
+  .bit-tab-container .tabs label {
+    padding: 15px 15px !important; }
+
+  .bit-tab-container .tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+    width: calc(100% - 90px); } 
+  }
+ 

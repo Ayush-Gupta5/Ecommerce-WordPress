@@ -1,0 +1,205 @@
+/*--------------------------------------------------------------
+# Post Grid
+--------------------------------------------------------------*/
+.bit-recent-posts-container .bit-recent-posts-thumbnail img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%; }
+.bit-recent-posts-container .bit-recent-posts-content-container h2 {
+  margin: 0 0 20px;
+  font-size: 1.5em !important;
+  font-weight: bold !important; }
+.bit-recent-posts-container .bit-recent-posts-content-container p {
+  font-size: 1em;
+  margin: 20px 0 20px; }
+.bit-recent-posts-container .bit-recent-posts-content-container .bit-recent-posts-author {
+  text-transform: capitalize;
+  color: inherit; }
+.bit-recent-posts-container .post-grid-style-one .bit-recent-posts {
+  margin-bottom: 30px; }
+  .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-thumbnail a {
+    overflow: hidden;
+    position: relative;
+    display: block; }
+    .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-thumbnail a:after {
+      content: "\f105";
+      display: block;
+      bottom: -50px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      line-height: 47px;
+      height: 47px;
+      width: 47px;
+      text-align: center;
+      font-family: 'FontAwesome';
+      background-color: #2e7fe4;
+      transition: all ease 0.3s;
+      transform: rotate(-180deg);
+      color: #ffffff;
+      position: absolute;
+      opacity: 0;
+      border-radius: 100%; }
+  .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-content-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100%;
+    width: calc(100% - 30px);
+    background-color: #666666;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.9;
+    visibility: visible;
+    transition: all ease 0.5s;
+    position: absolute; }
+    .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-content-container-wrap {
+      padding: 30px;
+      width: 100%; }
+      .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-content-container-wrap h2, .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-content-container-wrap a, .bit-recent-posts-container .post-grid-style-one .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-content-container-wrap span {
+        color: inherit;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+  .bit-recent-posts-container .post-grid-style-one .bit-recent-posts:hover .bit-recent-posts-thumbnail a:after {
+    bottom: 30px;
+    transform: rotate(0deg);
+    opacity: 1; }
+  .bit-recent-posts-container .post-grid-style-one .bit-recent-posts:hover .bit-recent-posts-content-container {
+    opacity: 0;
+    visibility: hidden; }
+.bit-recent-posts-container .post-grid-style-two .bit-recent-posts {
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px; }
+  .bit-recent-posts-container .post-grid-style-two .bit-recent-posts:first-child {
+    height: 630px; }
+  .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 100%;
+    width: calc(100% - 30px);
+    overflow: hidden; }
+    .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-thumbnail img {
+      position: absolute;
+      top: -9999px;
+      right: -9999px;
+      bottom: -9999px;
+      left: -9999px;
+      margin: auto;
+      display: block;
+      max-width: 200%;
+      max-height: 200%;
+      min-width: 100%;
+      min-height: 100%; }
+  .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 35px 25px;
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 60%, black 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, transparent 60%, black 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, transparent 60%, black 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+    color: #ffffff; }
+    .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container h2, .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container a, .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container span {
+      color: inherit; }
+    .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-meta-read-more-button {
+      position: absolute;
+      top: 20px;
+      right: 0;
+      line-height: normal;
+      padding: 14px 14px 14px 20px;
+      border-radius: 30px 0 0 30px;
+      background: #2e7fe4;
+      overflow: hidden; }
+      .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-meta-read-more-button:before {
+        content: "\f06e ";
+        display: block;
+        vertical-align: middle;
+        color: inherit;
+        font-family: 'FontAwesome';
+        position: absolute;
+        vertical-align: middle;
+        left: -200px;
+        right: -200px;
+        font-size: 20px;
+        margin: auto;
+        transition: all ease 0.3s; }
+      .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-meta-read-more-button span {
+        width: 40px;
+        overflow: hidden;
+        padding-left: 40px;
+        transition: all ease 0.3s;
+        display: block; }
+      .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-meta-read-more-button:hover:before {
+        right: 0; }
+      .bit-recent-posts-container .post-grid-style-two .bit-recent-posts .bit-recent-posts-content-container .bit-recent-posts-meta-read-more-button:hover span {
+        padding-left: 0; }
+.bit-recent-posts-container .bit-recent-posts-pagination {
+  text-align: center;
+  margin: 20px 0;
+  float: left;
+  width: 100%; }
+  .bit-recent-posts-container .bit-recent-posts-pagination:after, .bit-recent-posts-container .bit-recent-posts-pagination:before {
+    content: "";
+    display: block;
+    clear: both; }
+  .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap {
+    display: inline-block; }
+    .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap a, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap span {
+      float: left;
+      margin: 2px;
+      border-radius: 100%;
+      transition: all ease 0.3s;
+      text-decoration: none;
+      color: inherit;
+      line-height: 35px;
+      height: 35px;
+      vertical-align: middle;
+      box-shadow: none;
+      padding: 0;
+      border: 0; }
+      .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap a:not(.prev):not(.next), .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap span:not(.prev):not(.next) {
+        width: 35px; text-align:center;}
+      .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap a:hover, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap a:focus, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap a.current, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap span:hover, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap span:focus, .bit-recent-posts-container .bit-recent-posts-pagination .bit-recent-posts-pagination-wrap span.current {
+        background: #424242;
+        color: #ffffff; }
+  .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap a.prev, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap a.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.prev, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.next {
+    background: transparent;
+    color: inherit; }
+  .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap {
+    background: #ffffff;
+    border-radius: 50px; }
+    .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span {
+      margin: 9px 2px; }
+      .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.prev, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.prev {
+        padding: 0 20px;
+        border-radius: 0;
+        margin: 0 2px;
+        height: auto;
+        line-height: normal; }
+        .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.next i, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.prev i, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.next i, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.prev i {
+          line-height: 53px;
+          height: 53px;
+          font-size: 1.5em; }
+      .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.next {
+        border-left: solid 1px; }
+      .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap a.prev, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-two .bit-recent-posts-pagination-wrap span.prev {
+        border-right: solid 1px; }
+  .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap {
+    background: #f3f3f3; }
+    .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap a, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap span {
+      border-radius: 0;
+      margin: 0; }
+      .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap a.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap a.prev, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap span.next, .bit-recent-posts-container .bit-recent-posts-pagination.post_pagination-style-one .bit-recent-posts-pagination-wrap span.prev {
+        padding: 0 20px; }
+

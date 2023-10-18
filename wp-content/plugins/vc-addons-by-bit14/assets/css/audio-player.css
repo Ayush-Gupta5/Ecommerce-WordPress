@@ -1,0 +1,422 @@
+    .bi14-audio-player.audio-player-theme-five {
+        margin: 10px auto;
+    }
+    .bi14-audio-player.audio-player-theme-five .audio-image {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .bi14-audio-player.audio-player-theme-five .player {
+        padding: 70px 0px;
+        max-width: 400px;
+        width: 100%;
+        position: relative;
+    }
+    .bi14-audio-player.audio-player-theme-five .audio-image > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+        object-fit: cover;
+    }
+    .bi14-audio-player p.audio-title {
+        font-size: 24px;
+        text-align: center;
+        margin: 10px auto;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .bi14-audio-player p.artist-name {
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto;
+        text-transform: capitalize;
+    }
+    .bi14-audio-player.audio-player-theme-five p#timer {
+        text-align: center;
+        font-size: 100px;
+        margin: 0 auto;
+    }
+    .bi14-audio-player svg#play , .bi14-audio-player svg#pause {
+        x: 0px;
+        y: 0px;
+        enable-background: new 0 0 25 25;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 10px auto;
+        cursor: pointer;
+        fill: white;
+        border-radius: 100px;
+    }
+    .bi14-audio-player.audio-player-theme-five #slider div {
+        width: 4px;
+        height: 4px;
+        background: transparent !important;
+        position: relative;
+        border-radius: 2px;
+    }
+    .bi14-audio-player.audio-player-theme-five  #slider{
+        width: 100%;
+        background: #808183;
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 1px;
+    }
+    .bi14-audio-player.audio-player-theme-five  #elapsed:after {
+        content: "";
+        width: 5px;
+        position: absolute;
+        height: 5px;
+        display: inline-block;
+        background: #ffffff;
+        right: 0;
+        box-shadow: 0px 0 7px #fff6f6;
+        top: -2px;
+        border-radius: 100px;
+        border: 2px solid #aeadad;
+    }
+    .bi14-audio-player.audio-player-theme-five  .controls {
+        margin: 0px auto;
+    }
+    .bi14-audio-player.audio-player-theme-five .audio-info {
+        margin: 30px auto 0px;
+    }
+    .bi14-audio-player.audio-player-theme-five .controls {
+        position: relative;
+        padding: 18px;
+    }
+    .bi14-audio-player svg#backward {
+        x: 0px;
+        y: 0px;
+        enable-background: new 0 0 25 25;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 50px;
+        padding: 10px;
+        margin: 10px auto;
+        cursor: pointer;
+        fill: white;
+        border-radius: 100px;
+    }
+    .bi14-audio-player svg#forward {
+        x: 0px;
+        y: 0px;
+        enable-background: new 0 0 25 25;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 50px;
+        margin: 10px auto;
+        padding: 10px;
+        cursor: pointer;
+        fill: white;
+        border-radius: 100px;
+    }
+    .bi14-audio-player.audio-player-theme-four {
+        width: 80%;
+        max-height: 250px;
+        height: 100%;
+        margin-bottom: 100px;
+    }
+    .bi14-audio-player.audio-player-theme-four .player{
+        display: flex;
+        max-height: 300px;
+    }
+    .bi14-audio-player.audio-player-theme-four .audio-image {
+        width: 50%;
+    }
+    .bi14-audio-player.audio-player-theme-four .audio-info {
+        width: 50%;
+        padding: 36px 0px;
+        position: relative;
+    }
+    .bi14-audio-player.audio-player-theme-four .controls {
+        position: relative;
+    }
+    .bi14-audio-player.audio-player-theme-four img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .bi14-audio-player.audio-player-theme-five svg#play, .bi14-audio-player.audio-player-theme-five svg#pause {
+        border: 1px solid #aeadad;
+        padding: 7px;
+    }
+    .bi14-audio-player.audio-player-theme-four  svg#forward {
+        left: 170px;
+    }
+    .bi14-audio-player.audio-player-theme-four  svg#backward {
+        right: 170px;
+    }
+    .bi14-audio-player.audio-player-theme-four #slider {
+        position: absolute;
+        width: 50%;
+        background: #ffffff;
+        left: 0;
+        right: 0;
+        height: 6px;
+        margin: 0 auto;
+        border-radius: 15px;
+        bottom: 68px;
+    }
+    .bi14-audio-player.audio-player-theme-four #slider div {
+        width: 4px;
+        height: 6px;
+        background: #93d946;
+        position: relative;
+        border-radius: 2px;
+    }
+    .bi14-audio-player.audio-player-theme-four p#timer {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .bi14-audio-player.audio-player-theme-three{
+        max-width: 400px;
+        width: 100%;
+    }
+    .bi14-audio-player.audio-player-theme-three .audio-info {
+        position: relative;
+        top: -80px;
+        background: #00000070;
+        padding-top: 10px;
+    }
+    .bi14-audio-player.audio-player-theme-three svg#backward {
+        width: 40px;
+        height: 40px;
+        margin: 43px auto;
+        left: 100px;
+    }
+    .bi14-audio-player.audio-player-theme-three svg#forward {
+        width: 40px;
+        height: 40px;
+        margin: 43px auto;
+        right: 100px;
+    }
+    .bi14-audio-player.audio-player-theme-three  svg#play, .bi14-audio-player.audio-player-theme-three  svg#pause{
+        width: 60px;
+        height: 60px;
+        padding: 7px;
+        margin: 33px auto;
+    }
+    .bi14-audio-player.audio-player-theme-three #slider {
+        position: absolute;
+        background: #c8c8c8;
+        left: 0;
+        right: 0;
+        height: 6px;
+    }
+    .bi14-audio-player.audio-player-theme-three #elapsed {
+        width: 4px;
+        height: 6px;
+        background: #ffffff;
+        position: relative;
+        border-radius: 2px;
+    }
+    .bi14-audio-player.audio-player-theme-three  #elapsed:after {
+        content: "";
+        width: 15px;
+        position: absolute;
+        height: 15px;
+        display: inline-block;
+        background: #ffffff;
+        right: 0;
+        border-radius: 100px;
+        top: -4px;
+    }
+    .bi14-audio-player.audio-player-theme-three  #timer{
+        text-align: right;        
+        margin-right: 10px;
+    }
+    .bi14-audio-player.audio-player-theme-three  .audio-image{
+        height: 375px;
+    }
+    .bi14-audio-player.audio-player-theme-three  .audio-image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .bi14-audio-player.audio-player-theme-three p.artist-name , .bi14-audio-player.audio-player-theme-three p.audio-title{
+        margin: 0px;
+    }
+    .bi14-audio-player.audio-player-theme-three .player{
+        padding-bottom: 36px;
+        border-radius: 10px;
+    }
+    .bi14-audio-player.audio-player-theme-one .player{
+        padding: 29px 10px 100px;
+        border-radius: 5px; 
+    }
+    .bi14-audio-player.audio-player-theme-one #slider {
+        position: absolute;
+        background: #c8c8c8;
+        left: 0;
+        right: 0;
+        height: 6px;
+        width: 80%;
+        margin: -30px auto;
+    }
+    .bi14-audio-player.audio-player-theme-one #elapsed {
+        width: 4px;
+        height: 6px;
+        background: #ffffff;
+        position: relative;
+        border-radius: 2px;
+    }
+    .bi14-audio-player.audio-player-theme-one #backward {
+        left: 41%;
+        background-color: transparent !important;
+    }
+    .bi14-audio-player.audio-player-theme-one #forward {
+        right: 41%;
+        background-color: transparent !important;
+    }
+    .bi14-audio-player.audio-player-theme-one p#timer {
+        text-align: right;
+        position: relative;
+        top: 0px;
+        margin-right: 40px;
+    }
+    .bi14-audio-player.audio-player-theme-two {
+        margin: 12px;
+    }
+    .bi14-audio-player.audio-player-theme-two .audio-info {
+        padding: 30px 20px;
+        background-color: #cccccc;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 235px;
+    }
+
+    .bi14-audio-player.audio-player-theme-two #slider {
+        position: absolute;
+        background: #c8c8c8;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 6px;
+        width: 75%;
+        margin: 185px auto;
+    }
+    .bi14-audio-player.audio-player-theme-two #elapsed {
+        width: 4px;
+        height: 6px;
+        background: #ffffff;
+        position: relative;
+        border-radius: 2px;
+    }
+    .bi14-audio-player.audio-player-theme-two svg#backward{
+        margin: 162px  auto;
+        right: 79px;
+        left: auto;
+        top: 0;
+    }
+    .bi14-audio-player.audio-player-theme-two svg#forward{
+        margin: 162px  auto;
+        right: 40px;
+        left: auto;
+        top: 0;
+    }
+    .bi14-audio-player.audio-player-theme-two p#timer {
+        text-align: right;
+        margin-bottom: 37px;
+    }
+    .bi14-audio-player.audio-player-theme-two svg#play, .bi14-audio-player.audio-player-theme-two svg#pause{
+        left: 65px;
+        right: 0;
+        top: 0;
+        margin: 162px  0px;
+    }
+    .vc_row.wpb_row.vc_row-fluid {
+        overflow: hidden;
+    }
+    @media (max-width: 768px) {
+        .bi14-audio-player.audio-player-theme-four .audio-image{
+            width: 100%;
+        }
+        .bi14-audio-player.audio-player-theme-four .audio-info{
+            width: 100%;
+        }
+        .bi14-audio-player.audio-player-theme-one #backward {
+            left: 10%;
+        }
+        .bi14-audio-player.audio-player-theme-one #forward {
+            right: 10%;
+        }
+        .bi14-audio-player.audio-player-theme-one #slider {
+            position: absolute;
+            background: #c8c8c8;
+            left: 50px;
+            right: 50px;
+            height: 6px;
+            width: 80%;
+            margin: -30px auto;
+        }
+        .bi14-audio-player svg#play, .bi14-audio-player svg#pause {
+            x: 0px;
+            y: 0px;
+            enable-background: new 0 0 25 25;
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 50px;
+            right: 50px;
+            margin: 10px auto;
+            cursor: pointer;
+            fill: white;
+            border-radius: 100px;
+        }
+        .bi14-audio-player.audio-player-theme-one p#timer {
+            top: 14px;
+        }
+        .bi14-audio-player.audio-player-theme-two svg#play, .bi14-audio-player.audio-player-theme-two svg#pause{
+            left: 37px;
+        }
+        .bi14-audio-player.audio-player-theme-two #slider {
+            position: absolute;
+            background: #c8c8c8;
+            left: -36px;
+            top: 0;
+            right: 0;
+            height: 6px;
+            width: 70%;
+            margin: 185px auto;
+        }
+    }
+    @media (max-width: 600px) {
+        .bi14-audio-player.audio-player-theme-four{
+            max-height: fit-content;
+            height: 100%;
+        }
+        .bi14-audio-player.audio-player-theme-four .player {
+            max-height: fit-content;
+        }
+        .bi14-audio-player.audio-player-theme-four {
+            width: 100%;
+        }
+        .bi14-audio-player.audio-player-theme-four .audio-info {
+            padding: 11px 0px 75px;
+        }
+    }
+    @media (max-width: 500px) {
+        .bi14-audio-player.audio-player-theme-two #slider {
+            margin: 156px auto;
+        }
+        .bi14-audio-player.audio-player-theme-four .player {
+            display: block;
+        }
+
+        .bi14-audio-player.audio-player-theme-five{
+            margin: 10px 46px;
+        }
+    }
+    @media (max-width: 360px) {
+        .bi14-audio-player.audio-player-theme-one #slider{
+            width: 70%;
+        }
+    }

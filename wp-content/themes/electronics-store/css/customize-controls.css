@@ -1,0 +1,120 @@
+#customize-controls .control-section-electronics-store .accordion-section-title:hover,
+#customize-controls .control-section-electronics-store .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-electronics-store .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-electronics-store .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+
+input#_customize-input-electronics_store_content_spacing{
+	display: none;
+}
+li#customize-control-electronics_store_content_spacing{
+	margin: 0;
+}
+li#customize-control-electronics_store_slider_top_spacing,
+li#customize-control-electronics_store_slider_bottom_spacing,
+li#customize-control-electronics_store_slider_left_spacing,
+li#customize-control-electronics_store_slider_right_spacing {
+    width: 20%;
+    clear: none;
+    margin-right: 10px;
+}
+
+
+li#customize-control-electronics_store_related_product,
+li#customize-control-electronics_store_woocommerce_button_border_radius,
+li#customize-control-electronics_store_woocommerce_product_box_shadow,
+li#customize-control-electronics_store_back_to_top_alignment,
+li#customize-control-electronics_store_footer_widget_layout,
+li#customize-control-electronics_store_404_button_text, 
+li#customize-control-electronics_store_request_btn_url,
+li#customize-control-electronics_store_nav_font_size  {
+  border-bottom: 1px solid #b2b1b1;
+  padding-bottom: 10px;
+}
+
+/* --------- Icon Changer Style --------- */
+.type-icon{
+  	overflow: hidden;
+}
+li.customize-control-icon span.customize-control-title{
+	margin: 10px 0;
+}
+.selected-icon{
+	background: #fff;
+	line-height: 45px;
+	border: 1px solid #ddd;
+	position: relative;
+	cursor: pointer;
+	padding: 0 10px;
+}
+.selected-icon i{
+	font-size: 18px;
+	margin-right: 10px;
+}
+.selected-icon span i{
+	position: absolute;
+	background: #fff;
+	right: 0;
+	height: 45px;
+	width: 30px;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 20px;
+	line-height: 45px;
+}
+.icon-list{
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #EEE;
+	border-right: 0;
+	border-top: 0;
+	padding-bottom: 4%;
+	display: none;
+	cursor: pointer;
+	background: #fff;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow-y: scroll;	
+	height: 215px;
+}
+.icon-list li{
+	padding: 10px;
+	border: 1px solid #eee;
+}
+.icon-list li i{
+	margin-right: 10px;
+}
+.icon-list li:hover{
+	background: #333;
+	border: 1px solid #333;
+	color: #FFF;
+}
+.icon-list li.icon-active{
+	background: #0073aa;
+	border: 1px solid #0073aa;
+	color: #FFF;
+}
+.social-icon-search{
+	padding: 10px 0;
+}
+.socialInput{
+	padding: 10px;
+	font-size: 16px;
+}
+.icons-class {
+	font-size: 15px;
+	font-weight: 500;
+}

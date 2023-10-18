@@ -1,0 +1,109 @@
+.electronics-gadgets-banner-section p{
+    font-family: 'Open Sans', sans-serif;
+}
+.electronics-gadgets-banner-section{
+    width: auto;
+    height: auto;
+}
+/*electronics-gadgets-banner-section*/
+.electronics-gadgets-banner-section h1{
+    font-weight: 700;
+}
+.electronics-gadgets-banner-section a.wp-block-button__link {
+    background: #000 !important;
+    color: #fff !important;
+}
+.electronics-gadgets-banner-section a.wp-block-button__link:hover,.electronics-gadgets-product-section-column a.wp-block-button__link:hover{
+    background: #FFC21F !important;
+    color: #000 !important;
+}
+/*electronics-gadgets-product-section*/
+.electronics-gadgets-product-section p:after {
+    content: '';
+    padding: 1px;
+    background: #000;
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+}
+.electronics-gadgets-product-section-section-image  p.has-medium-font-size {
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 22px;
+    font-weight: 700;
+}
+.electronics-gadgets-product-section .wc-block-grid__product-title {
+    color: #121212;
+    font-weight: 600;
+    font-size: 20px !important;
+    text-decoration: none !important;
+    margin: 10px 15px;
+}
+.electronics-gadgets-product-section a.wc-block-grid__product-link {
+    text-decoration: none;
+}
+.electronics-gadgets-product-section li.wc-block-grid__product {
+    position: relative;
+}
+.electronics-gadgets-product-section .wc-block-grid__product-onsale {
+    font-weight: 700;
+    position: absolute;
+    line-height: 3.236;
+    top: -0.5em;
+    right: 0px;
+    border-radius: 0px;
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+}
+.electronics-gadgets-product-section-column a.wp-block-button__link{
+    background: #000 !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    display: inline-block !important;
+}
+.electronics-gadgets-product-section-column .wc-block-grid__product-price.price {
+    font-weight: 700;
+    font-size: 15px;
+    margin:  0 15px 10px;
+}
+.electronics-gadgets-product-section li.wc-block-grid__product {
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 0 10px #ddd;
+    margin-left: 20px;
+    flex: 1 0 23% !important;
+    max-width: 23% !important;
+    border: 0;
+    text-align: left;
+}
+.electronics-gadgets-product-section li.wc-block-grid__product img {
+    width: 100%;
+}
+.electronics-gadgets-product-section .wc-block-grid__product-rating .star-rating, .electronics-gadgets-product-section .wp-block-button.wc-block-grid__product-add-to-cart {
+    margin: 10px 15px !important;
+}
+@media screen and (min-width: 320px) and (max-width:720px) {
+    .electronics-gadgets-product-section li.wc-block-grid__product {
+        flex: 1 0 100% !important;
+        max-width: 100% !important;
+        margin: 15px 10px !important;
+    }
+}
+@media screen and (min-width: 721px) and (max-width:991px) {
+    .electronics-gadgets-banner-section h1{
+       font-size: 30px !important;
+    }
+    .electronics-gadgets-banner-section .wp-block-columns{
+       flex-wrap: nowrap !important;
+    }
+    .electronics-gadgets-product-section-section-column img {
+       width: auto !important;
+    }
+    .electronics-gadgets-product-section li.wc-block-grid__product {
+        flex: 1 0 47% !important;
+        max-width: 47% !important;
+    }
+}
