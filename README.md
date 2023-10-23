@@ -1,6 +1,7 @@
 # Ecommerce-WordPress
 
-I developed a E-Commerce Website (Mobile Shop) on WordPress.
+I designed and built an e-commerce website utilizing WordPress. This platform enables users to conveniently shop for mobile phones and their accessories online, offering multiple payment options including UPI, credit/debit card, and a Cash on Delivery method for their convenience.<br><br>
+Language and Plugin: WordPress, WooCommerce.
 
 #Home-Page
 ![Home-page](https://github.com/Ayush-Gupta5/Ecommerce-WordPress/assets/143918681/f80e737c-0e1e-40ab-994a-c44ee30073f9)
